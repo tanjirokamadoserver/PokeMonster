@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<groups>
+
+	<!-- ACCOUNT_TYPE_NORMAL = 1, -->
+	<!-- ACCOUNT_TYPE_HELP = 2, -->
+	<!-- ACCOUNT_TYPE_TUTOR = 3, -->
+	<!-- ACCOUNT_TYPE_GAMEMASTER = 4, -->
+	<!-- ACCOUNT_TYPE_COMMUNITYMANAGER = 5, -->
+	<!-- ACCOUNT_TYPE_GOD = 6 -->
+
+	<group id="1" name="player" flags="0" access="0" maxdepotitems="0" maxvipentries="0" />
+	<group id="2" name="help" flags="16842752" access="1" maxdepotitems="0" maxvipentries="200" />
+	<group id="3" name="tutor" flags="68736319488" access="1" maxdepotitems="0" maxvipentries="200" />
+	<group id="4" name="gamemaster" flags="214746899343" access="1" maxdepotitems="0" maxvipentries="200" />
+	<group id="5" name="communitymanager" flags="214747947919" access="1" maxdepotitems="0" maxvipentries="200" />
+	<group id="6" name="god" flags="272696844282" access="1" maxdepotitems="0" maxvipentries="200" />
+</groups>

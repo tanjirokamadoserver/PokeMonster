@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<outfits>
+
+
+<!-- Staff -->
+	<outfit type="1" looktype="3134" name="Brook" premium="no" unlocked="no" enabled="yes" />
+	
+	
+<!-- Male -->
+	<outfit type="1" looktype="3119" name="Roupa de Iniciante" premium="no" unlocked="yes" enabled="yes" />
+	<outfit type="1" looktype="3105" name="Tournament" premium="no" unlocked="yes" enabled="yes" />
+	<outfit type="1" looktype="3139" name="Minecraft" premium="no" unlocked="yes" enabled="yes" />
+	<outfit type="1" looktype="3136" name="Minecraft" premium="no" unlocked="yes" enabled="yes" />
+	<outfit type="1" looktype="3137" name="Minecraft" premium="no" unlocked="yes" enabled="yes" />
+	<outfit type="1" looktype="3022" name="Baia" premium="no" unlocked="no" enabled="yes" />
+	<outfit type="1" looktype="2902" name="Fisherman" premium="no" unlocked="yes" enabled="yes" />
+	<outfit type="1" looktype="2810" name="Jhon Snow" premium="no" unlocked="yes" enabled="yes" />
+	<outfit type="1" looktype="2831" name="Old Man" premium="no" unlocked="yes" enabled="yes" />
+	<outfit type="1" looktype="2832" name="Professor" premium="no" unlocked="yes" enabled="yes" />
+	
+	
+	
+	
+	<!-- Female -->
+	<outfit type="0" looktype="3116" name="Roupa de Iniciante" premium="no" unlocked="yes" enabled="yes" />
+	<outfit type="0" looktype="3104" name="Tournament" premium="no" unlocked="yes" enabled="yes" />
+	<outfit type="0" looktype="3083" name="Guitarrist" premium="no" unlocked="yes" enabled="yes" />
+	<outfit type="0" looktype="3030" name="Miss Fortune" premium="no" unlocked="yes" enabled="yes" />
+	<outfit type="0" looktype="2811" name="Danearys" premium="no" unlocked="yes" enabled="yes" />
+
+</outfits>

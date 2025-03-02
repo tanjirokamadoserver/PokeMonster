@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<spells>
+
+	<!-- House Spells -->
+	<instant name="Edit Door" words="!door" aggressive="0" script="house/edit_door.lua" />
+	<instant name="Invite Guests" words="!invite" aggressive="0" script="house/invite_guests.lua" />
+	<instant name="Kick Guest" words="!expulsar" aggressive="0" playernameparam="1" params="1" script="house/kick_guest.lua" />
+	<instant name="Invite Subowners" words="!subowner" aggressive="0" script="house/invite_subowners.lua" />
+
+</spells>

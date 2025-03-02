@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<globalevents>
+	<globalevent type="startup" name="ServerStartup" script="startup.lua" />
+	<globalevent type="record" name="PlayerRecord" script="record.lua" />
+	<globalevent name="Server Save" interval="60000" script="serversave.lua" />
+
+		<!-- ZONES EVENTS -->
+	<globalevent name="zones" interval="3600000" script="zonesEvents.lua"/>
+
+</globalevents>

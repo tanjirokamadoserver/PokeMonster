@@ -1,0 +1,524 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quests>
+	<quest name="Catches" startstorageid="91000" startstoragevalue="0">
+		<mission name="Quest 1" storageid="91000" startvalue="0" endvalue="1">
+			<missionstate id="0" description="Capture 2 rattatas e va ate a npc Julie no CP de Saffron para coletar seu premio!" />
+			<missionstate id="1" description="Capture 2 rattatas e va ate a npc Julie no CP de Saffron para coletar seu premio!" />
+		</mission>
+		<mission name="Quest 2" storageid="91000" startvalue="1" endvalue="2">
+			<missionstate id="1" description="Capture 2 bellsprouts e va ate a npc Julie no CP de Saffron para coletar seu premio!" />
+			<missionstate id="2" description="Capture 2 bellsprouts e va ate a npc Julie no CP de Saffron para coletar seu premio!" />
+		</mission>
+		<mission name="Quest Diaria" storageid="91000" startvalue="2" endvalue="3">
+			<missionstate id="2" description="Catches aleatorios diarios!" />
+			<missionstate id="3" description="Catches aleatorios diarios!" />
+		</mission>
+	</quest>
+
+	<quest name="Lugia de Vermilion" startstorageid="10200" startstoragevalue="0">
+		<mission name="Quest" storageid="10200" startvalue="0" endvalue="1">
+			<missionstate id="0" description="Derrote uma Lugia localizada na ilha ao sudoeste de Vermilion." />
+			<missionstate id="1" description="Derrote uma Lugia localizada na ilha ao sudoeste de Vermilion." />
+		</mission>
+	</quest>
+
+	<quest name="Moltres de Cerulean" startstorageid="10201" startstoragevalue="0">
+		<mission name="Quest" storageid="10201" startvalue="0" endvalue="1">
+			<missionstate id="0" description="Derrote um Moltres localizado na ilha ao nordeste de Cerulean." />
+			<missionstate id="1" description="Derrote um Moltres localizado na ilha ao nordeste de Cerulean." />
+		</mission>
+	</quest>
+
+	<quest name="Articuno de Snow" startstorageid="10202" startstoragevalue="0">
+		<mission name="Quest" storageid="10202" startvalue="0" endvalue="1">
+			<missionstate id="0" description="Derrote um Articuno localizado em Snow." />
+			<missionstate id="1" description="Derrote um Articuno localizado em Snow." />
+		</mission>
+	</quest>
+
+	<quest name="Zapdos de Nostrus" startstorageid="10203" startstoragevalue="0">
+		<mission name="Quest" storageid="10203" startvalue="0" endvalue="1">
+			<missionstate id="0" description="Derrote um Zapdos localizado em Nostrus." />
+			<missionstate id="1" description="Derrote um Zapdos localizado em Nostrus." />
+		</mission>
+	</quest>
+
+	<quest name="Poison Stone Lavender" startstorageid="10204" startstoragevalue="0">
+		<mission name="Quest" storageid="10204" startvalue="0" endvalue="1">
+			<missionstate id="0" description="Derrote Muk, Arbok e Pinsir localizados ao norte de Lavender." />
+			<missionstate id="1" description="Derrote Muk, Arbok e Pinsir." />
+		</mission>
+	</quest>
+
+	<quest name="Punch Stone Nostrus" startstorageid="10205" startstoragevalue="0">
+		<mission name="Quest" storageid="10205" startvalue="0" endvalue="1">
+			<missionstate id="0" description="Derrote Hitmontop e Hitmonlee localizados em Nostrus." />
+			<missionstate id="1" description="Derrote Hitmontop e Hitmonlee localizados em Nostrus." />
+		</mission>
+	</quest>
+
+<!--	<quest name="Fight Tower" startstorageid="10206" startstoragevalue="0">
+		<mission name="Escolha 1" storageid="10206" startvalue="0" endvalue="1">
+			<missionstate id="0" description="Derrote o lider da fight tower de Saffron." />
+			<missionstate id="1" description="Derrote o lider da fight tower de Saffron." />
+		</mission>
+		<mission name="Escolha 2" storageid="10207" startvalue="0" endvalue="1">
+			<missionstate id="0" description="Derrote o lider da fight tower de Saffron." />
+			<missionstate id="1" description="Derrote o lider da fight tower de Saffron." />
+		</mission>
+		<mission name="Escolha 3" storageid="10208" startvalue="0" endvalue="1">
+			<missionstate id="0" description="Derrote o lider da fight tower de Saffron." />
+			<missionstate id="1" description="Derrote o lider da fight tower de Saffron." />
+		</mission>
+	</quest>
+-->
+
+	<quest name="Darkness Stone Cerulean" startstorageid="10209" startstoragevalue="0">
+		<mission name="Quest" storageid="10209" startvalue="0" endvalue="1">
+			<missionstate id="0" description="Derrote Haunter e Misdreavus localizados ao leste de Cerulean." />
+			<missionstate id="1" description="Derrote Haunter e Misdreavus localizados ao leste de Cerulean." />
+		</mission>
+	</quest>
+
+	<quest name="Rock Stone Cerulean" startstorageid="10210" startstoragevalue="0">
+		<mission name="Quest" storageid="10210" startvalue="0" endvalue="1">
+			<missionstate id="0" description="Derrote Graveler, Golem e Steelix localizados ao oeste de Cerulean." />
+			<missionstate id="1" description="Derrote Graveler, Golem e Steelix localizados ao oeste de Cerulean." />
+		</mission>
+	</quest>
+
+	<quest name="Enigma Stone Fuchsia" startstorageid="10211" startstoragevalue="0">
+		<mission name="Quest" storageid="10211" startvalue="0" endvalue="1">
+			<missionstate id="0" description="Derrote Girafarig e Alakazam localizados ao nordeste de Fuchsia." />
+			<missionstate id="1" description="Derrote Girafarig e Alakazam localizados ao nordeste de Fuchsia." />
+		</mission>
+	</quest>
+
+	<quest name="Rock Stone Pewter" startstorageid="10212" startstoragevalue="0">
+		<mission name="Quest" storageid="10212" startvalue="0" endvalue="1">
+			<missionstate id="0" description="Derrote Golem, Steelix e Machamp localizados em Pewter." />
+			<missionstate id="1" description="Derrote Golem, Steelix e Machamp localizados em Pewter." />
+		</mission>
+	</quest>
+
+	<quest name="Thunder Shiny Nostrus" startstorageid="10213" startstoragevalue="0">
+		<mission name="Escolha 1: Shiny Electabubzz" storageid="10213" startvalue="0" endvalue="1">
+			<missionstate id="0" description="Derrote Minun, Jolteon, Electabuzz e Plusle localizados em Nostrus." />
+			<missionstate id="1" description="Derrote Minun, Jolteon, Electabuzz e Plusle localizados em Nostrus." />
+		</mission>
+		<mission name="Escolha 2: Shiny Jolteon" storageid="10214" startvalue="0" endvalue="1">
+			<missionstate id="0" description="Derrote Minun, Jolteon, Electabuzz e Plusle localizados em Nostrus." />
+			<missionstate id="1" description="Derrote Minun, Jolteon, Electabuzz e Plusle localizados em Nostrus." />
+		</mission>
+	</quest>
+
+	<quest name="Shining Box Nostrus" startstorageid="10215" startstoragevalue="0">
+		<mission name="Quest" storageid="10215" startvalue="0" endvalue="1">
+			<missionstate id="0" description="Ache a saka final em um labirinto repleto de Lendarios." />
+			<missionstate id="1" description="Parabens, voce foi capaz de suportar os lendarios e ainda resolver dois labirintos em uma so cave!" />
+		</mission>
+	</quest>
+
+	<quest name="Fire Quest Cinnabar" startstorageid="10216" startstoragevalue="0">
+		<mission name="Quest" storageid="10216" startvalue="0" endvalue="1">
+			<missionstate id="0" description="Derrote Charizard e Entei localizados em uma ilha ao sudoeste de Cinnabar." />
+			<missionstate id="1" description="Derrote Charizard e Entei localizados em uma ilha ao sudoeste de Cinnabar." />
+		</mission>
+	</quest>
+
+	<quest name="Subterranea Saffron" startstorageid="10217" startstoragevalue="0">
+		<mission name="Quest" storageid="10217" startvalue="0" endvalue="1">
+			<missionstate id="0" description="Derrote Qwilfish, Corsola e Gyarados em uma area de mergulho ao oeste de Saffron." />
+			<missionstate id="1" description="Derrote Qwilfish, Corsola e Gyarados em uma area de mergulho ao oeste de Saffron." />
+		</mission>
+	</quest>
+
+	<quest name="Earth Stone Cerulean" startstorageid="10218" startstoragevalue="0">
+		<mission name="Quest" storageid="10218" startvalue="0" endvalue="1">
+			<missionstate id="0" description="Derrote Marowak, Sandslash, Kabutops e Kangaskhan localizados ao leste de Cerulean." />
+			<missionstate id="1" description="Derrote Marowak, Sandslash, Kabutops e Kangaskhan localizados ao leste de Cerulean." />
+		</mission>
+	</quest>
+
+	<quest name="Fire Stone Cinnabar" startstorageid="10219" startstoragevalue="0">
+		<mission name="Quest" storageid="10219" startvalue="0" endvalue="1">
+			<missionstate id="0" description="Derrote Charizard, Arcanine e Flareon localizados em uma ilha ao sudoeste de Cinnabar." />
+			<missionstate id="1" description="Derrote Charizard, Arcanine e Flareon localizados em uma ilha ao sudoeste de Cinnabar." />
+		</mission>
+	</quest>
+
+	<quest name="Rock Stone Saffron" startstorageid="10220" startstoragevalue="0">
+		<mission name="Quest" storageid="10220" startvalue="0" endvalue="1">
+			<missionstate id="0" description="Derrote Graveler, Golem, Steelix e Crystal Onix localizados ao leste de Saffron." />
+			<missionstate id="1" description="Derrote Graveler, Golem, Steelix e Crystal Onix localizados ao leste de Saffron." />
+		</mission>
+	</quest>
+
+	<quest name="Annihilator Fuchsia" startstorageid="10221" startstoragevalue="0">
+		<mission name="Escolha 1: Shiny Porygon" storageid="10221" startvalue="0" endvalue="1">
+			<missionstate id="0" description="Derrote 2 Moltres e supere o dano de outros 4 em um grupo de 4 jogadores ao nordeste de Fuchsia." />
+			<missionstate id="1" description="Derrote 2 Moltres e supere o dano de outros 4 em um grupo de 4 jogadores ao nordeste de Fuchsia." />
+		</mission>
+		<mission name="Escolha 2: Shiny Hypno" storageid="10222" startvalue="0" endvalue="1">
+			<missionstate id="0" description="Derrote 2 Moltres e supere o dano de outros 4 em um grupo de 4 jogadores." />
+			<missionstate id="1" description="Derrote 2 Moltres e supere o dano de outros 4 em um grupo de 4 jogadores." />
+		</mission>
+		<mission name="Escolha 3: Shiny Alakazam" storageid="10223" startvalue="0" endvalue="1">
+			<missionstate id="0" description="Derrote 2 Moltres e supere o dano de outros 4 em um grupo de 4 jogadores." />
+			<missionstate id="1" description="Derrote 2 Moltres e supere o dano de outros 4 em um grupo de 4 jogadores." />
+		</mission>
+	</quest>
+
+	<quest name="Outland Darkness Stone" startstorageid="10224" startstoragevalue="0">
+		<mission name="Quest" storageid="10224" startvalue="0" endvalue="1">
+			<missionstate id="0" description="Derrote Gengar localizado no outland." />
+			<missionstate id="1" description="Derrote Gengar localizado no outland." />
+		</mission>
+	</quest>
+
+	<quest name="Enigma Stone Nostrus" startstorageid="10225" startstoragevalue="0">
+		<mission name="Quest" storageid="10225" startvalue="0" endvalue="1">
+			<missionstate id="0" description="Derrote Mew, Mewtwo, Shiny Mew e Shiny Mewtwo ao norte de Nostrus." />
+			<missionstate id="1" description="Derrote Mew, Mewtwo, Shiny Mew e Shiny Mewtwo ao norte de Nostrus." />
+		</mission>
+	</quest>
+
+	<quest name="Shiny Moltres Cinnabar" startstorageid="10226" startstoragevalue="0">
+		<mission name="Quest" storageid="10226" startvalue="0" endvalue="1">
+			<missionstate id="0" description="Derrote Moltres e Shiny Moltres localizados ao sul de Cinnabar." />
+			<missionstate id="1" description="Derrote Moltres e Shiny Moltres localizados ao sul de Cinnabar." />
+		</mission>
+	</quest>
+
+	<quest name="Outland Leaf" startstorageid="10227" startstoragevalue="0">
+		<mission name="Quest" storageid="10227" startvalue="0" endvalue="1">
+			<missionstate id="0" description="Derrote Bayleef e Breloom localizados no Outland." />
+			<missionstate id="1" description="Derrote Bayleef e Breloom localizados no Outland." />
+		</mission>
+	</quest>
+
+	<quest name="Outland Celebi" startstorageid="10228" startstoragevalue="0">
+		<mission name="Quest" storageid="10228" startvalue="0" endvalue="1">
+			<missionstate id="0" description="Derrote Celebi localizado no outland." />
+			<missionstate id="1" description="Derrote Celebi localizado no outland." />
+		</mission>
+	</quest>
+
+	<quest name="Outland Aquatica" startstorageid="10229" startstoragevalue="0">
+		<mission name="Quest" storageid="10229" startvalue="0" endvalue="1">
+			<missionstate id="0" description="Derrote Lugia localizado no Outland." />
+			<missionstate id="1" description="Derrote Lugia localizado no Outland." />
+		</mission>
+	</quest>
+
+	<quest name="Outland Psiquica" startstorageid="10230" startstoragevalue="0">
+		<mission name="Quest" storageid="10230" startvalue="0" endvalue="1">
+			<missionstate id="0" description="Derrote Mew localizado no Outland." />
+			<missionstate id="1" description="Derrote Mew localizado no Outland." />
+		</mission>
+	</quest>
+
+	<quest name="Outland Steel" startstorageid="10231" startstoragevalue="0">
+		<mission name="Quest" storageid="10231" startvalue="0" endvalue="1">
+			<missionstate id="0" description="Derrote Registeel e Crystal Onix localizado no Outland." />
+			<missionstate id="1" description="Derrote Registeel e Crystal Onix localizado no Outland." />
+		</mission>
+	</quest>
+
+	<quest name="Outland Fire" startstorageid="10232" startstoragevalue="0">
+		<mission name="Quest" storageid="10232" startvalue="0" endvalue="1">
+			<missionstate id="0" description="Derrote Moltres localizado no Outland." />
+			<missionstate id="1" description="Derrote Moltres localizado no Outland." />
+		</mission>
+	</quest>
+
+	<quest name="Outland Regirock" startstorageid="10233" startstoragevalue="0">
+		<mission name="Quest" storageid="10233" startvalue="0" endvalue="1">
+			<missionstate id="0" description="Derrote Regirock localizado no Outland." />
+			<missionstate id="1" description="Derrote Regirock localizado no Outland." />
+		</mission>
+	</quest>
+
+	<quest name="Outland Fight" startstorageid="10234" startstoragevalue="0">
+		<mission name="Quest" storageid="10234" startvalue="0" endvalue="1">
+			<missionstate id="0" description="Derrote Hitmonlee, Hitmonchan e Hitmontop localizados no Outland." />
+			<missionstate id="1" description="Derrote Hitmonlee, Hitmonchan e Hitmontop localizados no Outland." />
+		</mission>
+	</quest>
+
+	<quest name="Outland Poison" startstorageid="10235" startstoragevalue="0">
+		<mission name="Quest" storageid="10235" startvalue="0" endvalue="1">
+			<missionstate id="0" description="Derrote Parasect localizado no Outland." />
+			<missionstate id="1" description="Derrote Parasect localizado no Outland." />
+		</mission>
+	</quest>
+
+	<quest name="Outland Articuno" startstorageid="10236" startstoragevalue="0">
+		<mission name="Quest" storageid="10236" startvalue="0" endvalue="1">
+			<missionstate id="0" description="Derrote Articuno e Dragonite localizados no Outland." />
+			<missionstate id="1" description="Derrote Articuno e Dragonite localizados no Outland." />
+		</mission>
+	</quest>
+
+	<quest name="Outland Heart" startstorageid="10237" startstoragevalue="0">
+		<mission name="Quest" storageid="10237" startvalue="0" endvalue="1">
+			<missionstate id="0" description="Derrote Shiftry e Ursaring localizados no Outland." />
+			<missionstate id="1" description="Derrote Shiftry e Ursaring localizados no Outland." />
+		</mission>
+	</quest>
+
+	<quest name="Outland Nature" startstorageid="10238" startstoragevalue="0">
+		<mission name="Quest" storageid="10238" startvalue="0" endvalue="1">
+			<missionstate id="0" description="Derrote um Celebi localizado no Outland." />
+			<missionstate id="1" description="Derrote um Celebi localizado no Outland." />
+		</mission>
+	</quest>
+
+	<quest name="Outland Ice" startstorageid="10239" startstoragevalue="0">
+		<mission name="Quest" storageid="10239" startvalue="0" endvalue="1">
+			<missionstate id="0" description="Derrote Dragonite e Wailord localizados no Outland." />
+			<missionstate id="1" description="Derrote Dragonite e Wailord localizados no Outland." />
+		</mission>
+	</quest>
+
+	<quest name="Outland Zapdos" startstorageid="10240" startstoragevalue="0">
+		<mission name="Quest" storageid="10240" startvalue="0" endvalue="1">
+			<missionstate id="0" description="Derrote um Zapdos localizado no Outland." />
+			<missionstate id="1" description="Derrote um Zapdos localizado no Outland." />
+		</mission>
+	</quest>
+
+	<quest name="Monte da Lua" startstorageid="10241" startstoragevalue="0">
+		<mission name="Quest" storageid="10241" startvalue="0" endvalue="1">
+			<missionstate id="0" description="Vasculhe o local onde se realiza o ritual da pedra da lua." />
+			<missionstate id="1" description="Apos derrotar varios pokemons selvagens e procurar, voce conseguiu seu premio" />
+		</mission>
+	</quest>
+
+	<quest name="Cemiterio de Lavender" startstorageid="10242" startstoragevalue="0">
+		<mission name="Quest" storageid="10242" startvalue="0" endvalue="1">
+			<missionstate id="0" description="Rumores dizem que algumas pedras foram enterradas junto com seu antigo dono no cemiterio de Lavender" />
+			<missionstate id="1" description="Apos procurar em varios tumulos, voce achou seu premio" />
+		</mission>
+	</quest>
+
+	<quest name="Outland Shiny Celebi" startstorageid="10243" startstoragevalue="0">
+		<mission name="Quest" storageid="10243" startvalue="0" endvalue="1">
+			<missionstate id="0" description="Encontre e derrote um Shiny Celebi no Outland e colete seu premio." />
+			<missionstate id="1" description="Encontre e derrote um Shiny Celebi no Outland e colete seu premio." />
+		</mission>
+	</quest>
+
+	<quest name="Mew Dungeon" startstorageid="10244" startstoragevalue="0">
+		<mission name="Quest" storageid="10244" startvalue="0" endvalue="1">
+			<missionstate id="0" description="Ajude Red a derrotar um Mew." />
+			<missionstate id="1" description="Apos uma batalha ardua, voce foi capaz de vencer o poderoso Shiny Mew. Informe Red sobre seu facanha!" />
+		</mission>
+	</quest>
+
+	<quest name="Cerulean Cave" startstorageid="10245" startstoragevalue="0">
+		<mission name="Escolha 1" storageid="10245" startvalue="0" endvalue="1">
+			<missionstate id="0" description="Encontre a Cerulean Cave e explore-a a pedido do Professor Oak. Mas tome cuidado, rumores dizem que um poderoso pokemon psiquico habita a caverna!" />
+			<missionstate id="1" description="A batalha foi longa e extremamene dificil, e, ainda assim, voce superou o Shiny Mewtwo!" />
+		</mission>
+		<mission name="Escolha 2" storageid="10246" startvalue="0" endvalue="1">
+			<missionstate id="0" description="Encontre a Cerulean Cave e explore-a a pedido do Professor Oak. Mas tome cuidado, rumores dizem que um poderoso pokemon psiquico habita a caverna!" />
+			<missionstate id="1" description="A batalha foi longa e extremamene dificil, e, ainda assim, voce superou o Shiny Mewtwo!" />
+		</mission>
+		<mission name="Escolha 3" storageid="10247" startvalue="0" endvalue="1">
+			<missionstate id="0" description="Encontre a Cerulean Cave e explore-a a pedido do Professor Oak. Mas tome cuidado, rumores dizem que um poderoso pokemon psiquico habita a caverna!" />
+			<missionstate id="1" description="A batalha foi longa e extremamene dificil, e, ainda assim, voce superou o Shiny Mewtwo!" />
+		</mission>
+	</quest>
+
+	<quest name="Cold Portal" startstorageid="10248" startstoragevalue="0">
+		<mission name="Quest" storageid="10248" startvalue="0" endvalue="1">
+			<missionstate id="0" description="Encontre a ilha gelada, derrote seus Pokemons e colete seu premio no bau." />
+			<missionstate id="1" description="Encontre a ilha gelada, derrote seus Pokemons e colete seu premio no bau." />
+		</mission>
+	</quest>
+
+	<quest name="Azalea Quest" startstorageid="10249" startstoragevalue="0">
+		<mission name="Quest" storageid="10249" startvalue="0" endvalue="1">
+			<missionstate id="0" description="Em Azalea, derrote os Pokemons da caverna e colete seu premio." />
+			<missionstate id="1" description="Em Azalea, derrote os Pokemons da caverna e colete seu premio." />
+		</mission>
+	</quest>
+
+	<quest name="Labirinto do Latios" startstorageid="10250" startstoragevalue="0">
+		<mission name="Quest" storageid="10250" startvalue="0" endvalue="1">
+			<missionstate id="0" description="Na ilha traicoeira, encontre o Latios, o derrote e pegue seu premio." />
+			<missionstate id="1" description="Na ilha traicoeira, encontre o Latios, o derrote e pegue seu premio." />
+		</mission>
+	</quest>
+
+	<quest name="Terror Quest" startstorageid="10251" startstoragevalue="0">
+		<mission name="Quest" storageid="10251" startvalue="0" endvalue="1">
+			<missionstate id="0" description="Em Arcania, derrote os Pokemons lendarios e colete seu premio no bau." />
+			<missionstate id="1" description="Em Arcania, derrote os Pokemons lendarios e colete seu premio no bau." />
+		</mission>
+	</quest>
+
+	<quest name="Secret Saffron" startstorageid="10252" startstoragevalue="0">
+		<mission name="Quest" storageid="10252" startvalue="0" endvalue="1">
+			<missionstate id="0" description="Em Saffron, econtre a caverna secreta, derrote os Pokemons e colete seu premio no bau." />
+			<missionstate id="1" description="Em Saffron, econtre a caverna secreta, derrote os Pokemons e colete seu premio no bau." />
+		</mission>
+	</quest>
+
+	<quest name="Indigo League" startstorageid="91007" startstoragevalue="0">
+		<mission name="Quest" storageid="91007" startvalue="0" endvalue="1">
+			<missionstate id="0" description="Apos vencer todos os ginasios de Kanto, esta na hora do verdadeiro desafio: A Indigo League!" />
+			<missionstate id="1" description="Voce mostrou sua habilidade ao passar pela Elite Four e sua competencia ao vencer Blue, se tornando o mais novo campeao da Indigo League!" />
+		</mission>
+	</quest>
+
+	<quest name="Boulder Badge" startstorageid="92000" startstoragevalue="0">
+		<mission name="Quest" storageid="92000" startvalue="0" endvalue="1">
+			<missionstate id="0" description="Derrote Brock em Pewter!" />
+			<missionstate id="1" description="Voce derrotou Brock e recebeu a Insignia da Rocha" />
+		</mission>
+	</quest>
+
+	<quest name="Cascade Badge" startstorageid="92001" startstoragevalue="0">
+		<mission name="Quest" storageid="92001" startvalue="0" endvalue="1">
+			<missionstate id="0" description="Derrote Misty em Cerulean!" />
+			<missionstate id="1" description="Voce derrotou Misty e recebeu a Insignia da Cascata" />
+		</mission>
+	</quest>
+
+	<quest name="Thunder Badge" startstorageid="92002" startstoragevalue="0">
+		<mission name="Quest" storageid="92002" startvalue="0" endvalue="1">
+			<missionstate id="0" description="Derrote Lt. Surge em Vermilion!" />
+			<missionstate id="1" description="Voce derrotou Lt. Surge e recebeu a Insignia do Trovao" />
+		</mission>
+	</quest>
+
+	<quest name="Rainbow Badge" startstorageid="92003" startstoragevalue="0">
+		<mission name="Quest" storageid="92003" startvalue="0" endvalue="1">
+			<missionstate id="0" description="Derrote Erika em Celadon!" />
+			<missionstate id="1" description="Voce derrotou Erika e recebeu a Insignia do Arco-Iris" />
+		</mission>
+	</quest>
+
+	<quest name="Soul Badge" startstorageid="92004" startstoragevalue="0">
+		<mission name="Quest" storageid="92004" startvalue="0" endvalue="1">
+			<missionstate id="0" description="Derrote Koga em Fuchsia!" />
+			<missionstate id="1" description="Voce derrotou Koga e recebeu a Insignia da Alma" />
+		</mission>
+	</quest>
+
+	<quest name="Marsh Badge" startstorageid="92005" startstoragevalue="0">
+		<mission name="Quest" storageid="92005" startvalue="0" endvalue="1">
+			<missionstate id="0" description="Derrote Sabrina em Saffron!" />
+			<missionstate id="1" description="Voce derrotou Sabrina e recebeu a Insignia da Lama" />
+		</mission>
+	</quest>
+
+	<quest name="Volcano Badge" startstorageid="92006" startstoragevalue="0">
+		<mission name="Quest" storageid="92006" startvalue="0" endvalue="1">
+			<missionstate id="0" description="Derrote Blaine em Cinnabar!" />
+			<missionstate id="1" description="Voce derrotou Blaine e recebeu a Insignia do Vulcao" />
+		</mission>
+	</quest>
+
+	<quest name="Earth Badge" startstorageid="92007" startstoragevalue="0">
+		<mission name="Quest" storageid="92007" startvalue="0" endvalue="1">
+			<missionstate id="0" description="Derrote Giovanni em Viridian!" />
+			<missionstate id="1" description="Voce derrotou Giovanni e recebeu a Insignia da Terra" />
+		</mission>
+	</quest>
+
+	<quest name="Zephyr Badge" startstorageid="92008" startstoragevalue="0">
+		<mission name="Quest" storageid="92008" startvalue="0" endvalue="1">
+			<missionstate id="0" description="Derrote o lider do ginasio e colecte sua insignea!" />
+			<missionstate id="1" description="Derrote o lider do ginasio e colecte sua insignea!" />
+		</mission>
+	</quest>
+
+	<quest name="Hive Badge" startstorageid="92009" startstoragevalue="0">
+		<mission name="Quest" storageid="92009" startvalue="0" endvalue="1">
+			<missionstate id="0" description="Derrote o lider do ginasio e colecte sua insignea!" />
+			<missionstate id="1" description="Derrote o lider do ginasio e colecte sua insignea!" />
+		</mission>
+	</quest>
+
+	<quest name="Plain Badge" startstorageid="92010" startstoragevalue="0">
+		<mission name="Quest" storageid="92010" startvalue="0" endvalue="1">
+			<missionstate id="0" description="Derrote o lider do ginasio e colecte sua insignea!" />
+			<missionstate id="1" description="Derrote o lider do ginasio e colecte sua insignea!" />
+		</mission>
+	</quest>
+
+	<quest name="Fog Badge" startstorageid="92011" startstoragevalue="0">
+		<mission name="Quest" storageid="92011" startvalue="0" endvalue="1">
+			<missionstate id="0" description="Derrote o lider do ginasio e colecte sua insignea!" />
+			<missionstate id="1" description="Derrote o lider do ginasio e colecte sua insignea!" />
+		</mission>
+	</quest>
+
+	<quest name="Storm Badge" startstorageid="92012" startstoragevalue="0">
+		<mission name="Quest" storageid="92012" startvalue="0" endvalue="1">
+			<missionstate id="0" description="Derrote o lider do ginasio e colecte sua insignea!" />
+			<missionstate id="1" description="Derrote o lider do ginasio e colecte sua insignea!" />
+		</mission>
+	</quest>
+
+	<quest name="Mineral Badge" startstorageid="92013" startstoragevalue="0">
+		<mission name="Quest" storageid="92013" startvalue="0" endvalue="1">
+			<missionstate id="0" description="Derrote o lider do ginasio e colecte sua insignea!" />
+			<missionstate id="1" description="Derrote o lider do ginasio e colecte sua insignea!" />
+		</mission>
+	</quest>
+
+	<quest name="Glacier Badge" startstorageid="92014" startstoragevalue="0">
+		<mission name="Quest" storageid="92014" startvalue="0" endvalue="1">
+			<missionstate id="0" description="Derrote o lider do ginasio e colecte sua insignea!" />
+			<missionstate id="1" description="Derrote o lider do ginasio e colecte sua insignea!" />
+		</mission>
+	</quest>
+
+	<quest name="Rising Badge" startstorageid="92015" startstoragevalue="0">
+		<mission name="Quest" storageid="92015" startvalue="0" endvalue="1">
+			<missionstate id="0" description="Derrote o lider do ginasio e colecte sua insignea!" />
+			<missionstate id="1" description="Derrote o lider do ginasio e colecte sua insignea!" />
+		</mission>
+	</quest>
+
+	<quest name="Oak Request" startstorageid="92016" startstoragevalue="0">
+		<mission name="Quest" storageid="92016" startvalue="0" endvalue="1">
+			<missionstate id="0" description="Professor Oak reconhece suas habilidades apos vencer a Indigo League e possui um novo pedido para voce." />
+			<missionstate id="1" description="Professor Oak diz sobre a Cerulean Cave e os perigos que habitam la." />
+		</mission>
+	</quest>
+
+	<quest name="The Pokemaster" startstorageid="92017" startstoragevalue="0">
+		<mission name="Quest" storageid="92017" startvalue="0" endvalue="1">
+			<missionstate id="0" description="Oak quer sua ajuda para encontrar o Mestre Pokemon que se perdeu em sua jornada." />
+			<missionstate id="1" description="Oak lhe diz sobre a jornada do mestre Pokemon para capturar um lendario. A ultima noticia de Oak diz que ele se encontrava no topo de uma montanha a noroeste de Kanto." />
+		</mission>
+	</quest>
+
+	<quest name="Red Request" startstorageid="92018" startstoragevalue="0">
+		<mission name="Quest" storageid="92018" startvalue="0" endvalue="1">
+			<missionstate id="0" description="Voce encontrou Red, o desafiou e venceu! Parabens! Mas agora ele tem um ultimo pedido antes de te reconhecer como um Mestre Pokemon. Derrote o lendario mais forte de Kanto, que nem mesmo ele foi capaz de derrotar!" />
+			<missionstate id="1" description="Apos derrotar Shiny Mew, Red te reconhece como um Mestre Pokemon e lhe da um artefato antigo. Faca bom uso!" />
+		</mission>
+	</quest>
+
+	<quest name="Catch'em All" startstorageid="92019" startstoragevalue="0">
+		<mission name="Quest" storageid="92019" startvalue="0" endvalue="1">
+			<missionstate id="0" description="Ajude na catalogacao dos pokemons ate a terceira geracao os capturando. Depois procure sua recompensa." />
+			<missionstate id="1" description="Apos capturar todos os pokemons ate a terceira geracao, Oak lhe da uma escritura antiga como recompensa. E agora? Apos tanto trabalho o que ganho e apenas um papel velho. Seu futuro certamente possuira varias surpresas, boas e ruins!!!" />
+		</mission>
+	</quest>
+
+	<quest name="Elder Man Request" startstorageid="92020" startstoragevalue="0">
+		<mission name="Quest" storageid="92020" startvalue="0" endvalue="1">
+			<missionstate id="0" description="Rumores dizem sobre um cidadao experiente que guarda conhecimentos importantes sobre o passado." />
+			<missionstate id="1" description="Voce ajudou o Elder Man e foi recompensado por isso!" />
+		</mission>
+	</quest>
+
+</quests>
+

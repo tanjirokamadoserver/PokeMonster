@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<shaders>
+    <shader id="1" name="outfit_rainbow" premium="yes"/>
+    <shader id="2" name="outfit_heat" premium="yes"/>
+	<shader id="3" name="outfit_party" premium="yes"/>
+	
+	
+	<shader id="4" name="ShaderLightBlue" premium="yes"/>
+	<shader id="5" name="ShaderBlue" premium="yes"/>
+	<shader id="6" name="ShaderRed" premium="yes"/>
+	
+	<shader id="7" name="ShaderDarkRed" premium="yes"/>
+	<shader id="8" name="ShaderPurple" premium="yes"/>
+	<shader id="9" name="ShaderWhite" premium="yes"/>
+	
+	<shader id="10" name="ShaderLightBlueStatic" premium="yes"/>
+	<shader id="11" name="ShaderBlueStatic" premium="yes"/>
+	<shader id="12" name="ShaderRedStatic" premium="yes"/>
+	
+	<shader id="13" name="ShaderDarkRedStatic" premium="yes"/>
+	<shader id="14" name="ShaderPurpleStatic" premium="yes"/>
+	<shader id="15" name="ShaderWhiteStatic" premium="yes"/>
+	
+	<shader id="16" name="ShaderRage" premium="yes"/>
+	<shader id="17" name="ShaderFreeze" premium="yes"/>
+	<shader id="18" name="ShaderGreen" premium="yes"/>
+	
+
+	<shader id="19" name="ShaderGreenStatic" premium="yes"/>
+	<shader id="20" name="ShaderYellow" premium="yes"/>
+	<shader id="21" name="ShaderYellowStatic" premium="yes"/>
+	
+	<shader id="22" name="ShaderCreatureHighlight" premium="yes"/>
+	<shader id="23" name="Outfit_3line" premium="yes"/>
+	<shader id="24" name="Outfit_circle" premium="yes"/>
+	
+	<shader id="25" name="Outfit_Line" premium="yes"/>
+	<shader id="26" name="Outfit_Outline" premium="yes"/>
+	<shader id="27" name="Outfit_Shimmering" premium="yes"/>
+	
+	
+	<shader id="28" name="Outfit_Shine" premium="yes"/>
+	<shader id="29" name="Outfit_brazil" premium="yes"/>
+	<shader id="30" name="Outfit_Gold" premium="yes"/>
+	
+	<shader id="31" name="Outfit_Stars" premium="yes"/>
+	<shader id="32" name="Outfit_blood" premium="yes"/>
+	<shader id="33" name="Outfit_camouflage" premium="yes"/>
+	
+	<shader id="34" name="Outfit_Flash" premium="yes"/>
+	<shader id="35" name="Outfit_Glitch" premium="yes"/>
+	<shader id="36" name="Outfit_Ice" premium="yes"/>
+	<shader id="37" name="Outfit_Purpleneon" premium="yes"/>
+	<shader id="38" name="Outfit_Cosmos" premium="yes"/>
+	<shader id="39" name="Outfit_Purplesky" premium="yes"/>
+	
+	<shader id="40" name="Outfit_Static" premium="yes"/>
+	<shader id="41" name="Outfit_Sun" premium="yes"/>
+	<shader id="42" name="outfit_red" premium="yes"/>
+	<shader id="43" name="outfit_blue" premium="yes"/>
+	<shader id="44" name="outfit_green" premium="yes"/>
+	<shader id="45" name="outfit_purple" premium="yes"/>
+	<shader id="46" name="outfit_yellow" premium="yes"/>
+	<shader id="47" name="outfit_gray" premium="yes"/>
+	<shader id="48" name="outfit_black" premium="yes"/>
+	<shader id="49" name="outfit_white" premium="yes"/>
+	
+	<shader id="50" name="outfit_rainbow" premium="yes"/>
+	<shader id="51" name="poke_friends" premium="yes"/>
+	<shader id="52" name="outfit_circle_white" premium="yes"/>
+	<shader id="53" name="outfit_circle_red" premium="yes"/>
+	
+	
+	
+	
+	
+
+</shaders>

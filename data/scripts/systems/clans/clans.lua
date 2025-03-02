@@ -1,0 +1,43 @@
+CLAN = {}
+
+CLAN.clans = {
+    [1] = "bug",
+    [2] = "dark",
+    [3] = "dragon",
+    [4] = "electric",
+    [5] = "fairy",
+    [6] = "fighting",
+    [7] = "fire",
+    [8] = "flying",
+    [9] = "ghost",
+    [10] = "grass",
+    [11] = "ground",
+    [12] = "ice",
+    [13] = "normal",
+    [14] = "poison",
+    [15] = "psychic",
+    [16] = "rock",
+    [17] = "steel",
+    [18] = "water",
+}
+
+CONST_ELEMENTS_TO_CLAN = {
+    ["bug"] = COMBAT_BUGDAMAGE,
+    ["dark"] = COMBAT_DARKDAMAGE,
+    ["dragon"] = COMBAT_DRAGONDAMAGE,
+    ["electric"] = COMBAT_ELECTRICDAMAGE,
+    ["fairy"] = COMBAT_FAIRYDAMAGE,
+    ["fighting"] = COMBAT_FIGHTINGDAMAGE,
+    ["fire"] = COMBAT_FIREDAMAGE,
+    ["flying"] = COMBAT_FLYINGDAMAGE,
+    ["ghost"] = COMBAT_GHOSTDAMAGE,
+    ["grass"] = COMBAT_GRASSDAMAGE,
+    ["ground"] = COMBAT_GROUNDDAMAGE,
+    ["ice"] = COMBAT_ICEDAMAGE,
+    ["normal"] = COMBAT_NORMALDAMAGE,
+    ["poison"] = COMBAT_POISONDAMAGE,
+    ["psychic"] = COMBAT_PSYCHICDAMAGE,
+    ["rock"] = COMBAT_ROCKDAMAGE,
+    ["steel"] = COMBAT_STEELDAMAGE,
+    ["water"] = COMBAT_WATERDAMAGE,
+}

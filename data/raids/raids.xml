@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<raids>
+<!--	<raid name="Halloween" file="poke/halloween.xml" interval2="9000" margin="9900" />
+	<raid name="Halloween Saffron" file="poke/halloweensaffron.xml" interval2="9000" margin="9900" /> -->
+	<!-- <raid name="ArenaRaticate" file="poke/arenaraticate.xml" interval2="9000" margin="9900" />  -->
+	<!-- <raid name="ArenaOnix" file="poke/arenaonix.xml" interval2="9000" margin="9900" /> -->
+	<!-- <raid name="ArenaVileplume" file="poke/arenavileplume.xml" interval2="9000" margin="9900" /> -->
+	<!-- <raid name="ArenaCharizard" file="poke/arenacharizard.xml" interval2="9000" margin="9900" /> -->
+	<!-- <raid name="ArenaLendarios" file="poke/arenalendarios.xml" interval2="9000" margin="9900" /> -->
+	<!-- <raid name="ArenaLendarios2" file="poke/arenalendarios2.xml" interval2="9000" margin="9900" /> -->
+	<!-- <raid name="ArenaLendarios3" file="poke/arenalendarios3.xml" interval2="9000" margin="9900" /> -->
+	<!-- <raid name="ArenaLendarios4" file="poke/arenalendarios4.xml" interval2="9000" margin="9900" /> -->
+
+	<!-- <raid name="Christmas Saffron" file="poke/christmassaffron.xml" interval2="9000" margin="9900" /> -->
+	<!-- <raid name="Shiny Saffron" file="poke/shinysaffron.xml" interval2="9000" margin="9900" /> -->
+
+	<!-- <raid name="Rattata" file="poke/rattata.xml" interval2="500" margin="180" /> -->
+	<!-- <raid name="Aquatica" file="poke/aquatica.xml" interval2="600" margin="180" /> -->
+	<!-- <raid name="Raikou" file="poke/raikou.xml" interval2="1500" margin="180" /> -->
+	<!-- <raid name="Christmas" file="poke/christmas.xml" interval2="120" margin="0" /> -->
+</raids>

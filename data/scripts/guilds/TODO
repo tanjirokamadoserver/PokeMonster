@@ -1,0 +1,21 @@
+Guilds Management:
+    ✔ Database
+    ✔ Create new guild
+    ✔ Misc
+    ✔ Guild data
+    ✔ Inbox
+    ✔ Ranks
+    ✔ Buffs
+    ✔ Top Guilds
+    ✔ Wars
+
+    Module:
+        ✔ General
+        ✔ Settings
+        ✔ Buffs
+        ✔ Members
+        ✔ Ranks
+        ✔ Wars
+        ✔ Inbox
+        ✔ Top Guilds
+        ☐ Cache

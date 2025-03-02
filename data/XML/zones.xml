@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<zones>
+
+    <zone id="0" name="default zone">
+    </zone>
+
+    <zone id="1" name="Zona de Teste">
+        <area>
+            <topleft x="3076" y="2923" z="0" />
+            <bottomright x="3099" y="2932" z="7" />
+        </area>
+    </zone>
+
+    <zone id="2" name="Block">
+		
+        <area> <!-- 1 -->
+            <topleft x="4294" y="4601" z="0" />
+            <bottomright x="5381" y="4602" z="7" />
+        </area>
+		
+		<area> <!-- 2 -->
+            <topleft x="5381" y="4602" z="0" />
+            <bottomright x="5381" y="5584" z="7" />
+        </area>
+		
+        <area> <!-- 3 -->
+            <topleft x="4294" y="5584" z="0" />
+            <bottomright x="5381" y="5584" z="7" />
+        </area>
+		
+        <area> <!-- 4 -->
+            <topleft x="4318" y="4593" z="0" />
+            <bottomright x="4318" y="5585" z="7" />
+        </area>
+		
+		<area> <!-- 5 -->
+            <topleft x="1440" y="5423" z="0" />
+            <bottomright x="3440" y="5423" z="7" />
+        </area>
+		
+		<area> <!-- 6 -->
+            <topleft x="3440" y="1886" z="0" />
+            <bottomright x="3440" y="5423" z="7" />
+        </area>
+		
+		<area> <!-- 7 -->
+            <topleft x="1440" y="1886" z="0" />
+            <bottomright x="1440" y="5423" z="7" />
+        </area>
+		
+		<area> <!-- 8 -->
+            <topleft x="1440" y="1886" z="0" />
+            <bottomright x="3440" y="1886" z="7" />
+        </area>
+	</zone>
+
+	<zone id="3" name="Market Zone">
+        <area> <!-- Cerulean Market -->
+            <topleft x="2608" y="2374" z="7" />
+            <bottomright x="2615" y="2379" z="7" />
+        </area>
+        <area> <!-- Viridian Market -->
+            <topleft x="2251" y="2594" z="7" />
+            <bottomright x="2258" y="2600" z="7" />
+        </area>
+	</zone>
+</zones>

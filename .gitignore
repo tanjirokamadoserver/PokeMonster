@@ -1,0 +1,15 @@
+build/
+backups/
+data/logs/
+logs/
+data/world
+src/tfs
+tfs
+config.lua
+.vscode/
+/vcpkg_installed
+*.dll
+*.exe
+*.pdb
+*.rar
+/vc17/.vs
