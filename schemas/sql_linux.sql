@@ -1,13 +1,14 @@
 -- phpMyAdmin SQL Dump
--- version 5.1.1deb5ubuntu1
+-- version 4.9.5deb2
 -- https://www.phpmyadmin.net/
 --
 -- Host: localhost:3306
--- Tempo de geração: 15-Dez-2024 às 16:19
--- Versão do servidor: 8.0.40-0ubuntu0.22.04.1
--- versão do PHP: 8.1.2-1ubuntu2.20
+-- Tempo de geração: 03/03/2025 às 08:54
+-- Versão do servidor: 8.0.41-0ubuntu0.20.04.1
+-- Versão do PHP: 7.4.3-4ubuntu2.28
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
+SET AUTOCOMMIT = 0;
 START TRANSACTION;
 SET time_zone = "+00:00";
 
@@ -18,13 +19,13 @@ SET time_zone = "+00:00";
 /*!40101 SET NAMES utf8mb4 */;
 
 --
--- Banco de dados: `monster`
+-- Banco de dados: `22`
 --
 
 -- --------------------------------------------------------
 
 --
--- Estrutura da tabela `accounts`
+-- Estrutura para tabela `accounts`
 --
 
 CREATE TABLE `accounts` (
@@ -42,8 +43,10 @@ CREATE TABLE `accounts` (
   `creationIp` varchar(255) DEFAULT '0'
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
+-- --------------------------------------------------------
+
 --
--- Estrutura da tabela `account_bans`
+-- Estrutura para tabela `account_bans`
 --
 
 CREATE TABLE `account_bans` (
@@ -57,7 +60,7 @@ CREATE TABLE `account_bans` (
 -- --------------------------------------------------------
 
 --
--- Estrutura da tabela `account_ban_history`
+-- Estrutura para tabela `account_ban_history`
 --
 
 CREATE TABLE `account_ban_history` (
@@ -72,7 +75,7 @@ CREATE TABLE `account_ban_history` (
 -- --------------------------------------------------------
 
 --
--- Estrutura da tabela `account_viplist`
+-- Estrutura para tabela `account_viplist`
 --
 
 CREATE TABLE `account_viplist` (
@@ -86,7 +89,7 @@ CREATE TABLE `account_viplist` (
 -- --------------------------------------------------------
 
 --
--- Estrutura da tabela `blocked_ips`
+-- Estrutura para tabela `blocked_ips`
 --
 
 CREATE TABLE `blocked_ips` (
@@ -100,7 +103,7 @@ CREATE TABLE `blocked_ips` (
 -- --------------------------------------------------------
 
 --
--- Estrutura da tabela `bonificacoes`
+-- Estrutura para tabela `bonificacoes`
 --
 
 CREATE TABLE `bonificacoes` (
@@ -118,7 +121,7 @@ CREATE TABLE `bonificacoes` (
 -- --------------------------------------------------------
 
 --
--- Estrutura da tabela `boss_ranking`
+-- Estrutura para tabela `boss_ranking`
 --
 
 CREATE TABLE `boss_ranking` (
@@ -129,7 +132,7 @@ CREATE TABLE `boss_ranking` (
 -- --------------------------------------------------------
 
 --
--- Estrutura da tabela `categoria`
+-- Estrutura para tabela `categoria`
 --
 
 CREATE TABLE `categoria` (
@@ -142,7 +145,7 @@ CREATE TABLE `categoria` (
 -- --------------------------------------------------------
 
 --
--- Estrutura da tabela `config_categoria_wiki`
+-- Estrutura para tabela `config_categoria_wiki`
 --
 
 CREATE TABLE `config_categoria_wiki` (
@@ -155,7 +158,7 @@ CREATE TABLE `config_categoria_wiki` (
 -- --------------------------------------------------------
 
 --
--- Estrutura da tabela `config_inicio`
+-- Estrutura para tabela `config_inicio`
 --
 
 CREATE TABLE `config_inicio` (
@@ -174,7 +177,7 @@ CREATE TABLE `config_inicio` (
 -- --------------------------------------------------------
 
 --
--- Estrutura da tabela `config_permission_bazar`
+-- Estrutura para tabela `config_permission_bazar`
 --
 
 CREATE TABLE `config_permission_bazar` (
@@ -190,7 +193,7 @@ CREATE TABLE `config_permission_bazar` (
 -- --------------------------------------------------------
 
 --
--- Estrutura da tabela `config_permission_bonificacao`
+-- Estrutura para tabela `config_permission_bonificacao`
 --
 
 CREATE TABLE `config_permission_bonificacao` (
@@ -206,7 +209,7 @@ CREATE TABLE `config_permission_bonificacao` (
 -- --------------------------------------------------------
 
 --
--- Estrutura da tabela `config_permission_inicio`
+-- Estrutura para tabela `config_permission_inicio`
 --
 
 CREATE TABLE `config_permission_inicio` (
@@ -222,7 +225,7 @@ CREATE TABLE `config_permission_inicio` (
 -- --------------------------------------------------------
 
 --
--- Estrutura da tabela `config_permission_noticia`
+-- Estrutura para tabela `config_permission_noticia`
 --
 
 CREATE TABLE `config_permission_noticia` (
@@ -238,7 +241,7 @@ CREATE TABLE `config_permission_noticia` (
 -- --------------------------------------------------------
 
 --
--- Estrutura da tabela `config_permission_pacotes`
+-- Estrutura para tabela `config_permission_pacotes`
 --
 
 CREATE TABLE `config_permission_pacotes` (
@@ -254,7 +257,7 @@ CREATE TABLE `config_permission_pacotes` (
 -- --------------------------------------------------------
 
 --
--- Estrutura da tabela `config_permission_promocional`
+-- Estrutura para tabela `config_permission_promocional`
 --
 
 CREATE TABLE `config_permission_promocional` (
@@ -270,7 +273,7 @@ CREATE TABLE `config_permission_promocional` (
 -- --------------------------------------------------------
 
 --
--- Estrutura da tabela `config_permission_push`
+-- Estrutura para tabela `config_permission_push`
 --
 
 CREATE TABLE `config_permission_push` (
@@ -286,7 +289,7 @@ CREATE TABLE `config_permission_push` (
 -- --------------------------------------------------------
 
 --
--- Estrutura da tabela `config_permission_quests`
+-- Estrutura para tabela `config_permission_quests`
 --
 
 CREATE TABLE `config_permission_quests` (
@@ -302,7 +305,7 @@ CREATE TABLE `config_permission_quests` (
 -- --------------------------------------------------------
 
 --
--- Estrutura da tabela `config_permission_team`
+-- Estrutura para tabela `config_permission_team`
 --
 
 CREATE TABLE `config_permission_team` (
@@ -318,7 +321,7 @@ CREATE TABLE `config_permission_team` (
 -- --------------------------------------------------------
 
 --
--- Estrutura da tabela `config_permission_wiki`
+-- Estrutura para tabela `config_permission_wiki`
 --
 
 CREATE TABLE `config_permission_wiki` (
@@ -334,7 +337,7 @@ CREATE TABLE `config_permission_wiki` (
 -- --------------------------------------------------------
 
 --
--- Estrutura da tabela `config_promocional`
+-- Estrutura para tabela `config_promocional`
 --
 
 CREATE TABLE `config_promocional` (
@@ -353,7 +356,7 @@ CREATE TABLE `config_promocional` (
 -- --------------------------------------------------------
 
 --
--- Estrutura da tabela `config_quests`
+-- Estrutura para tabela `config_quests`
 --
 
 CREATE TABLE `config_quests` (
@@ -371,7 +374,7 @@ CREATE TABLE `config_quests` (
 -- --------------------------------------------------------
 
 --
--- Estrutura da tabela `config_team`
+-- Estrutura para tabela `config_team`
 --
 
 CREATE TABLE `config_team` (
@@ -386,7 +389,7 @@ CREATE TABLE `config_team` (
 -- --------------------------------------------------------
 
 --
--- Estrutura da tabela `config_vocations`
+-- Estrutura para tabela `config_vocations`
 --
 
 CREATE TABLE `config_vocations` (
@@ -398,7 +401,7 @@ CREATE TABLE `config_vocations` (
 -- --------------------------------------------------------
 
 --
--- Estrutura da tabela `config_wiki`
+-- Estrutura para tabela `config_wiki`
 --
 
 CREATE TABLE `config_wiki` (
@@ -416,7 +419,7 @@ CREATE TABLE `config_wiki` (
 -- --------------------------------------------------------
 
 --
--- Estrutura da tabela `download`
+-- Estrutura para tabela `download`
 --
 
 CREATE TABLE `download` (
@@ -429,7 +432,7 @@ CREATE TABLE `download` (
 -- --------------------------------------------------------
 
 --
--- Estrutura da tabela `global_storage`
+-- Estrutura para tabela `global_storage`
 --
 
 CREATE TABLE `global_storage` (
@@ -437,17 +440,10 @@ CREATE TABLE `global_storage` (
   `value` varchar(255) NOT NULL DEFAULT '0'
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 
---
--- Extraindo dados da tabela `global_storage`
---
-
-INSERT INTO `global_storage` (`key`, `value`) VALUES
-(1, '1');
-
 -- --------------------------------------------------------
 
 --
--- Estrutura da tabela `guilds`
+-- Estrutura para tabela `guilds`
 --
 
 CREATE TABLE `guilds` (
@@ -471,14 +467,7 @@ CREATE TABLE `guilds` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 
 --
--- Extraindo dados da tabela `guilds`
---
-
-INSERT INTO `guilds` (`id`, `name`, `ownerid`, `creationdata`, `level`, `gold`, `buffs`, `wars_won`, `wars_lost`, `motd`, `join_status`, `language`, `required_level`, `emblem`, `pacifism`, `pacifism_status`, `buffs_save`) VALUES
-(1, 'Teste', 1, 1725378695, 6, 210000, 0x020202000000000000, 0, 0, '', 1, 1, 50, 0, 0, 0, 1731803288182);
-
---
--- Acionadores `guilds`
+-- Gatilhos `guilds`
 --
 DELIMITER $$
 CREATE TRIGGER `oncreate_guilds` AFTER INSERT ON `guilds` FOR EACH ROW BEGIN
@@ -491,7 +480,7 @@ DELIMITER ;
 -- --------------------------------------------------------
 
 --
--- Estrutura da tabela `guilds_inbox`
+-- Estrutura para tabela `guilds_inbox`
 --
 
 CREATE TABLE `guilds_inbox` (
@@ -504,22 +493,10 @@ CREATE TABLE `guilds_inbox` (
   `finished` tinyint NOT NULL DEFAULT '0'
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 
---
--- Extraindo dados da tabela `guilds_inbox`
---
-
-INSERT INTO `guilds_inbox` (`id`, `target_id`, `guild_id`, `date`, `type`, `text`, `finished`) VALUES
-(1, 0, 0, 1727322665, 6, 'Teste deposited {10000}.', 0),
-(2, 0, 0, 1730251379, 5, 'Guild {Brave} has been disbanded by the leader.', 0),
-(3, 0, 0, 1730251395, 6, 'Teste deposited {20000}.', 0),
-(4, 0, 0, 1731438079, 6, 'Icaro deposited {9990000}.', 0),
-(5, 0, 0, 1731803331, 6, 'Icaro deposited {10000}.', 0),
-(6, 0, 0, 1732044084, 6, 'Teste deposited {9990000}.', 0);
-
 -- --------------------------------------------------------
 
 --
--- Estrutura da tabela `guilds_inbox_old`
+-- Estrutura para tabela `guilds_inbox_old`
 --
 
 CREATE TABLE `guilds_inbox_old` (
@@ -535,7 +512,7 @@ CREATE TABLE `guilds_inbox_old` (
 -- --------------------------------------------------------
 
 --
--- Estrutura da tabela `guilds_player_inbox`
+-- Estrutura para tabela `guilds_player_inbox`
 --
 
 CREATE TABLE `guilds_player_inbox` (
@@ -543,18 +520,10 @@ CREATE TABLE `guilds_player_inbox` (
   `inbox_id` int NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 
---
--- Extraindo dados da tabela `guilds_player_inbox`
---
-
-INSERT INTO `guilds_player_inbox` (`player_id`, `inbox_id`) VALUES
-(1, 4),
-(1, 5);
-
 -- --------------------------------------------------------
 
 --
--- Estrutura da tabela `guildwar_kills`
+-- Estrutura para tabela `guildwar_kills`
 --
 
 CREATE TABLE `guildwar_kills` (
@@ -570,7 +539,7 @@ CREATE TABLE `guildwar_kills` (
 -- --------------------------------------------------------
 
 --
--- Estrutura da tabela `guild_invites`
+-- Estrutura para tabela `guild_invites`
 --
 
 CREATE TABLE `guild_invites` (
@@ -583,7 +552,7 @@ CREATE TABLE `guild_invites` (
 -- --------------------------------------------------------
 
 --
--- Estrutura da tabela `guild_members`
+-- Estrutura para tabela `guild_members`
 --
 
 CREATE TABLE `guild_members` (
@@ -595,17 +564,10 @@ CREATE TABLE `guild_members` (
   `contribution` bigint UNSIGNED NOT NULL DEFAULT '0'
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 
---
--- Extraindo dados da tabela `guild_members`
---
-
-INSERT INTO `guild_members` (`player_id`, `guild_id`, `rank_id`, `nick`, `leader`, `contribution`) VALUES
-(1, 1, 1, '', 1, 10000);
-
 -- --------------------------------------------------------
 
 --
--- Estrutura da tabela `guild_ranks`
+-- Estrutura para tabela `guild_ranks`
 --
 
 CREATE TABLE `guild_ranks` (
@@ -617,19 +579,10 @@ CREATE TABLE `guild_ranks` (
   `leader` tinyint NOT NULL DEFAULT '0'
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 
---
--- Extraindo dados da tabela `guild_ranks`
---
-
-INSERT INTO `guild_ranks` (`id`, `guild_id`, `name`, `permissions`, `default`, `leader`) VALUES
-(1, 1, 'the Leader', -1, 0, 1),
-(2, 1, 'a Member', 0, 1, 0),
-(7, 1, 'Membro Novo', 34, 0, 0);
-
 -- --------------------------------------------------------
 
 --
--- Estrutura da tabela `guild_wars`
+-- Estrutura para tabela `guild_wars`
 --
 
 CREATE TABLE `guild_wars` (
@@ -649,7 +602,7 @@ CREATE TABLE `guild_wars` (
 -- --------------------------------------------------------
 
 --
--- Estrutura da tabela `historico_bazar`
+-- Estrutura para tabela `historico_bazar`
 --
 
 CREATE TABLE `historico_bazar` (
@@ -669,7 +622,7 @@ CREATE TABLE `historico_bazar` (
 -- --------------------------------------------------------
 
 --
--- Estrutura da tabela `historico_mp`
+-- Estrutura para tabela `historico_mp`
 --
 
 CREATE TABLE `historico_mp` (
@@ -685,7 +638,7 @@ CREATE TABLE `historico_mp` (
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 --
--- Acionadores `historico_mp`
+-- Gatilhos `historico_mp`
 --
 DELIMITER $$
 CREATE TRIGGER `set_date_created` BEFORE INSERT ON `historico_mp` FOR EACH ROW BEGIN
@@ -697,7 +650,7 @@ DELIMITER ;
 -- --------------------------------------------------------
 
 --
--- Estrutura da tabela `historico_mp_shop`
+-- Estrutura para tabela `historico_mp_shop`
 --
 
 CREATE TABLE `historico_mp_shop` (
@@ -716,7 +669,7 @@ CREATE TABLE `historico_mp_shop` (
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 --
--- Acionadores `historico_mp_shop`
+-- Gatilhos `historico_mp_shop`
 --
 DELIMITER $$
 CREATE TRIGGER `set_date_created_historico_mp_shop` BEFORE INSERT ON `historico_mp_shop` FOR EACH ROW BEGIN
@@ -728,7 +681,7 @@ DELIMITER ;
 -- --------------------------------------------------------
 
 --
--- Estrutura da tabela `historico_pagamentos`
+-- Estrutura para tabela `historico_pagamentos`
 --
 
 CREATE TABLE `historico_pagamentos` (
@@ -751,7 +704,7 @@ CREATE TABLE `historico_pagamentos` (
 -- --------------------------------------------------------
 
 --
--- Estrutura da tabela `houses`
+-- Estrutura para tabela `houses`
 --
 
 CREATE TABLE `houses` (
@@ -770,278 +723,10 @@ CREATE TABLE `houses` (
   `beds` int NOT NULL DEFAULT '0'
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
---
--- Extraindo dados da tabela `houses`
---
-
-INSERT INTO `houses` (`id`, `owner`, `paid`, `warnings`, `name`, `rent`, `town_id`, `bid`, `bid_end`, `last_bid`, `highest_bidder`, `size`, `beds`) VALUES
-(1, 0, 0, 0, '', 0, 0, 0, 0, 0, 0, 178, 0),
-(2, 0, 0, 0, '', 0, 0, 0, 0, 0, 0, 207, 0),
-(3, 0, 0, 0, '', 0, 0, 0, 0, 0, 0, 121, 0),
-(4, 0, 0, 0, '', 0, 0, 0, 0, 0, 0, 181, 0),
-(5, 0, 0, 0, '5', 0, 1, 0, 0, 0, 0, 119, 0),
-(6, 0, 0, 0, '', 0, 0, 0, 0, 0, 0, 60, 0),
-(7, 0, 0, 0, '', 0, 0, 0, 0, 0, 0, 71, 0),
-(8, 0, 0, 0, '', 0, 0, 0, 0, 0, 0, 56, 0),
-(9, 0, 0, 0, '', 0, 0, 0, 0, 0, 0, 83, 0),
-(10, 0, 0, 0, '', 0, 0, 0, 0, 0, 0, 77, 0),
-(11, 0, 0, 0, '', 0, 0, 0, 0, 0, 0, 82, 0),
-(12, 0, 0, 0, '', 0, 0, 0, 0, 0, 0, 121, 0),
-(13, 0, 0, 0, '', 0, 0, 0, 0, 0, 0, 121, 0),
-(14, 0, 0, 0, '', 0, 0, 0, 0, 0, 0, 121, 0),
-(15, 0, 0, 0, '', 0, 0, 0, 0, 0, 0, 180, 0),
-(16, 0, 0, 0, '', 0, 0, 0, 0, 0, 0, 121, 0),
-(17, 0, 0, 0, '', 0, 0, 0, 0, 0, 0, 131, 0),
-(18, 0, 0, 0, '', 0, 0, 0, 0, 0, 0, 155, 0),
-(19, 0, 0, 0, '', 0, 0, 0, 0, 0, 0, 200, 0),
-(20, 0, 0, 0, '', 0, 0, 0, 0, 0, 0, 196, 0),
-(21, 0, 0, 0, '', 0, 0, 0, 0, 0, 0, 195, 0),
-(22, 0, 0, 0, '', 0, 0, 0, 0, 0, 0, 145, 0),
-(23, 0, 0, 0, '', 0, 0, 0, 0, 0, 0, 188, 0),
-(24, 0, 0, 0, '', 0, 0, 0, 0, 0, 0, 154, 0),
-(25, 0, 0, 0, '', 0, 0, 0, 0, 0, 0, 59, 0),
-(26, 0, 0, 0, '', 0, 0, 0, 0, 0, 0, 54, 0),
-(27, 0, 0, 0, '', 0, 0, 0, 0, 0, 0, 68, 0),
-(28, 0, 0, 0, '', 0, 0, 0, 0, 0, 0, 88, 0),
-(29, 0, 0, 0, '', 0, 0, 0, 0, 0, 0, 74, 0),
-(30, 0, 0, 0, '', 0, 0, 0, 0, 0, 0, 82, 0),
-(31, 0, 0, 0, '', 0, 0, 0, 0, 0, 0, 81, 0),
-(32, 0, 0, 0, '', 0, 0, 0, 0, 0, 0, 77, 0),
-(33, 0, 0, 0, '', 0, 0, 0, 0, 0, 0, 64, 0),
-(34, 0, 0, 0, '', 0, 0, 0, 0, 0, 0, 89, 0),
-(35, 0, 0, 0, '', 0, 0, 0, 0, 0, 0, 50, 0),
-(36, 0, 0, 0, '', 0, 0, 0, 0, 0, 0, 59, 0),
-(37, 0, 0, 0, '', 0, 0, 0, 0, 0, 0, 454, 0),
-(38, 0, 0, 0, '', 0, 0, 0, 0, 0, 0, 448, 0),
-(39, 0, 0, 0, '', 0, 0, 0, 0, 0, 0, 36, 0),
-(40, 0, 0, 0, '', 0, 0, 0, 0, 0, 0, 30, 0),
-(41, 0, 0, 0, '', 0, 0, 0, 0, 0, 0, 63, 0),
-(42, 0, 0, 0, '', 0, 0, 0, 0, 0, 0, 113, 0),
-(43, 0, 0, 0, '', 0, 0, 0, 0, 0, 0, 56, 0),
-(44, 0, 0, 0, '', 0, 0, 0, 0, 0, 0, 79, 0),
-(45, 0, 0, 0, '', 0, 0, 0, 0, 0, 0, 140, 0),
-(46, 0, 0, 0, '', 0, 0, 0, 0, 0, 0, 66, 0),
-(47, 0, 0, 0, '', 0, 0, 0, 0, 0, 0, 120, 0),
-(48, 0, 0, 0, '', 0, 0, 0, 0, 0, 0, 191, 0),
-(49, 0, 0, 0, '', 0, 0, 0, 0, 0, 0, 30, 0),
-(50, 0, 0, 0, '', 0, 0, 0, 0, 0, 0, 158, 0),
-(51, 0, 0, 0, '', 0, 0, 0, 0, 0, 0, 78, 0),
-(52, 0, 0, 0, '', 0, 0, 0, 0, 0, 0, 22, 0),
-(53, 0, 0, 0, '', 0, 0, 0, 0, 0, 0, 38, 0),
-(54, 0, 0, 0, '', 0, 0, 0, 0, 0, 0, 35, 0),
-(55, 0, 0, 0, '', 0, 0, 0, 0, 0, 0, 27, 0),
-(56, 0, 0, 0, '', 0, 0, 0, 0, 0, 0, 48, 0),
-(57, 0, 0, 0, '', 0, 0, 0, 0, 0, 0, 46, 0),
-(58, 0, 0, 0, '', 0, 0, 0, 0, 0, 0, 40, 0),
-(61, 0, 0, 0, '', 0, 0, 0, 0, 0, 0, 57, 0),
-(62, 0, 0, 0, '', 0, 0, 0, 0, 0, 0, 63, 0),
-(63, 0, 0, 0, '', 0, 0, 0, 0, 0, 0, 264, 0),
-(64, 0, 0, 0, '', 0, 0, 0, 0, 0, 0, 144, 0),
-(65, 0, 0, 0, '', 0, 0, 0, 0, 0, 0, 494, 0),
-(66, 0, 0, 0, '', 0, 0, 0, 0, 0, 0, 63, 0),
-(67, 0, 0, 0, '', 0, 0, 0, 0, 0, 0, 61, 0),
-(68, 0, 0, 0, '', 0, 0, 0, 0, 0, 0, 72, 0),
-(69, 0, 0, 0, '', 0, 0, 0, 0, 0, 0, 69, 0),
-(70, 0, 0, 0, '', 0, 0, 0, 0, 0, 0, 192, 0),
-(71, 0, 0, 0, '', 0, 0, 0, 0, 0, 0, 306, 0),
-(72, 0, 0, 0, '', 0, 0, 0, 0, 0, 0, 238, 0),
-(73, 0, 0, 0, '', 0, 0, 0, 0, 0, 0, 320, 0),
-(74, 0, 0, 0, '', 0, 0, 0, 0, 0, 0, 238, 0),
-(75, 0, 0, 0, '', 0, 0, 0, 0, 0, 0, 223, 0),
-(76, 0, 0, 0, '', 0, 0, 0, 0, 0, 0, 182, 0),
-(77, 0, 0, 0, '', 0, 0, 0, 0, 0, 0, 80, 0),
-(78, 0, 0, 0, '', 0, 0, 0, 0, 0, 0, 39, 0),
-(79, 0, 0, 0, '', 0, 0, 0, 0, 0, 0, 576, 0),
-(80, 0, 0, 0, '', 0, 0, 0, 0, 0, 0, 40, 0),
-(81, 0, 0, 0, '', 0, 0, 0, 0, 0, 0, 295, 0),
-(82, 0, 0, 0, '', 0, 0, 0, 0, 0, 0, 124, 0),
-(83, 0, 0, 0, '', 0, 0, 0, 0, 0, 0, 144, 0),
-(84, 0, 0, 0, '', 0, 0, 0, 0, 0, 0, 108, 0),
-(85, 0, 0, 0, '', 0, 0, 0, 0, 0, 0, 103, 0),
-(86, 0, 0, 0, '', 0, 0, 0, 0, 0, 0, 97, 0),
-(87, 0, 0, 0, '', 0, 0, 0, 0, 0, 0, 106, 0),
-(88, 0, 0, 0, '', 0, 0, 0, 0, 0, 0, 113, 0),
-(89, 0, 0, 0, '', 0, 0, 0, 0, 0, 0, 120, 0),
-(90, 0, 0, 0, '', 0, 0, 0, 0, 0, 0, 217, 0),
-(91, 0, 0, 0, '', 0, 0, 0, 0, 0, 0, 201, 0),
-(92, 0, 0, 0, '', 0, 0, 0, 0, 0, 0, 204, 0),
-(93, 0, 0, 0, '', 0, 0, 0, 0, 0, 0, 87, 0),
-(94, 0, 0, 0, '', 0, 0, 0, 0, 0, 0, 353, 0),
-(95, 0, 0, 0, '', 0, 0, 0, 0, 0, 0, 133, 0),
-(96, 0, 0, 0, '', 0, 0, 0, 0, 0, 0, 146, 0),
-(97, 0, 0, 0, '', 0, 0, 0, 0, 0, 0, 167, 0),
-(98, 0, 0, 0, '', 0, 0, 0, 0, 0, 0, 135, 0),
-(99, 0, 0, 0, '', 0, 0, 0, 0, 0, 0, 163, 0),
-(100, 0, 0, 0, '', 0, 0, 0, 0, 0, 0, 97, 0),
-(101, 0, 0, 0, '', 0, 0, 0, 0, 0, 0, 81, 0),
-(102, 0, 0, 0, '', 0, 0, 0, 0, 0, 0, 178, 0),
-(103, 0, 0, 0, '', 0, 0, 0, 0, 0, 0, 140, 0),
-(104, 0, 0, 0, '', 0, 0, 0, 0, 0, 0, 180, 0),
-(105, 0, 0, 0, '', 0, 0, 0, 0, 0, 0, 173, 0),
-(106, 0, 0, 0, '', 0, 0, 0, 0, 0, 0, 177, 0),
-(107, 0, 0, 0, '', 0, 0, 0, 0, 0, 0, 164, 0),
-(108, 0, 0, 0, '', 0, 0, 0, 0, 0, 0, 56, 0),
-(109, 0, 0, 0, '', 0, 0, 0, 0, 0, 0, 98, 0),
-(110, 0, 0, 0, '', 0, 0, 0, 0, 0, 0, 152, 0),
-(111, 0, 0, 0, '', 0, 0, 0, 0, 0, 0, 224, 0),
-(112, 0, 0, 0, '', 0, 0, 0, 0, 0, 0, 87, 0),
-(113, 0, 0, 0, '', 0, 0, 0, 0, 0, 0, 86, 0),
-(114, 0, 0, 0, '', 0, 0, 0, 0, 0, 0, 99, 0),
-(115, 0, 0, 0, '', 0, 0, 0, 0, 0, 0, 124, 0),
-(116, 0, 0, 0, '', 0, 0, 0, 0, 0, 0, 77, 0),
-(117, 0, 0, 0, '', 0, 0, 0, 0, 0, 0, 102, 0),
-(118, 0, 0, 0, '', 0, 0, 0, 0, 0, 0, 128, 0),
-(119, 0, 0, 0, '', 0, 0, 0, 0, 0, 0, 112, 0),
-(120, 0, 0, 0, '', 0, 0, 0, 0, 0, 0, 96, 0),
-(121, 0, 0, 0, '', 0, 0, 0, 0, 0, 0, 99, 0),
-(122, 0, 0, 0, '', 0, 0, 0, 0, 0, 0, 67, 0),
-(123, 0, 0, 0, '', 0, 0, 0, 0, 0, 0, 40, 0),
-(124, 0, 0, 0, '', 0, 0, 0, 0, 0, 0, 30, 0),
-(125, 0, 0, 0, '', 0, 0, 0, 0, 0, 0, 244, 0),
-(126, 0, 0, 0, '', 0, 0, 0, 0, 0, 0, 173, 0),
-(127, 0, 0, 0, '', 0, 0, 0, 0, 0, 0, 197, 0),
-(128, 0, 0, 0, '', 0, 0, 0, 0, 0, 0, 168, 1),
-(129, 0, 0, 0, '', 0, 0, 0, 0, 0, 0, 399, 1),
-(130, 0, 0, 0, '', 0, 0, 0, 0, 0, 0, 135, 1),
-(131, 0, 0, 0, '', 0, 0, 0, 0, 0, 0, 189, 1),
-(132, 0, 0, 0, '', 0, 0, 0, 0, 0, 0, 243, 1),
-(133, 0, 0, 0, '', 0, 0, 0, 0, 0, 0, 216, 1),
-(134, 0, 0, 0, '', 0, 0, 0, 0, 0, 0, 135, 1),
-(135, 0, 0, 0, '', 0, 0, 0, 0, 0, 0, 112, 1),
-(136, 0, 0, 0, '', 0, 0, 0, 0, 0, 0, 100, 0),
-(137, 0, 0, 0, '', 0, 0, 0, 0, 0, 0, 118, 1),
-(138, 0, 0, 0, '', 0, 0, 0, 0, 0, 0, 81, 0),
-(139, 0, 0, 0, '', 0, 0, 0, 0, 0, 0, 154, 0),
-(140, 0, 0, 0, '', 0, 0, 0, 0, 0, 0, 132, 0),
-(141, 0, 0, 0, '', 0, 0, 0, 0, 0, 0, 166, 0),
-(142, 0, 0, 0, '', 0, 0, 0, 0, 0, 0, 59, 0),
-(143, 0, 0, 0, '', 0, 0, 0, 0, 0, 0, 71, 0),
-(144, 0, 0, 0, '', 0, 0, 0, 0, 0, 0, 73, 0),
-(145, 0, 0, 0, '', 0, 0, 0, 0, 0, 0, 40, 0),
-(146, 0, 0, 0, '', 0, 0, 0, 0, 0, 0, 45, 0),
-(147, 0, 0, 0, '', 0, 0, 0, 0, 0, 0, 56, 0),
-(148, 0, 0, 0, '', 0, 0, 0, 0, 0, 0, 110, 0),
-(149, 0, 0, 0, '', 0, 0, 0, 0, 0, 0, 111, 0),
-(150, 0, 0, 0, '', 0, 0, 0, 0, 0, 0, 126, 0),
-(151, 0, 0, 0, '', 0, 0, 0, 0, 0, 0, 109, 0),
-(152, 0, 0, 0, '', 0, 0, 0, 0, 0, 0, 89, 0),
-(153, 0, 0, 0, '', 0, 0, 0, 0, 0, 0, 55, 0),
-(156, 0, 0, 0, '', 0, 0, 0, 0, 0, 0, 62, 0),
-(157, 0, 0, 0, '', 0, 0, 0, 0, 0, 0, 99, 0),
-(158, 0, 0, 0, '', 0, 0, 0, 0, 0, 0, 89, 0),
-(159, 0, 0, 0, '', 0, 0, 0, 0, 0, 0, 69, 0),
-(160, 0, 0, 0, '', 0, 0, 0, 0, 0, 0, 169, 0),
-(161, 0, 0, 0, '', 0, 0, 0, 0, 0, 0, 38, 0),
-(162, 0, 0, 0, '', 0, 0, 0, 0, 0, 0, 112, 0),
-(163, 0, 0, 0, '', 0, 0, 0, 0, 0, 0, 93, 1),
-(164, 0, 0, 0, '', 0, 0, 0, 0, 0, 0, 72, 1),
-(165, 0, 0, 0, '', 0, 0, 0, 0, 0, 0, 43, 1),
-(166, 0, 0, 0, '', 0, 0, 0, 0, 0, 0, 62, 1),
-(167, 0, 0, 0, '', 0, 0, 0, 0, 0, 0, 48, 1),
-(168, 0, 0, 0, '', 0, 0, 0, 0, 0, 0, 68, 1),
-(169, 0, 0, 0, '', 0, 0, 0, 0, 0, 0, 171, 1),
-(170, 0, 0, 0, '', 0, 0, 0, 0, 0, 0, 156, 1),
-(171, 0, 0, 0, '', 0, 0, 0, 0, 0, 0, 160, 1),
-(172, 0, 0, 0, '', 0, 0, 0, 0, 0, 0, 91, 1),
-(173, 0, 0, 0, '', 0, 0, 0, 0, 0, 0, 117, 1),
-(174, 0, 0, 0, '', 0, 0, 0, 0, 0, 0, 146, 2),
-(175, 0, 0, 0, '', 0, 0, 0, 0, 0, 0, 122, 2),
-(176, 0, 0, 0, '', 0, 0, 0, 0, 0, 0, 253, 2),
-(177, 0, 0, 0, '', 0, 0, 0, 0, 0, 0, 92, 1),
-(178, 0, 0, 0, '', 0, 0, 0, 0, 0, 0, 116, 0),
-(179, 0, 0, 0, '', 0, 0, 0, 0, 0, 0, 153, 0),
-(180, 0, 0, 0, '', 0, 0, 0, 0, 0, 0, 340, 0),
-(181, 0, 0, 0, '', 0, 0, 0, 0, 0, 0, 145, 0),
-(182, 0, 0, 0, '', 0, 0, 0, 0, 0, 0, 103, 0),
-(183, 0, 0, 0, '', 0, 0, 0, 0, 0, 0, 76, 0),
-(184, 0, 0, 0, '', 0, 0, 0, 0, 0, 0, 102, 0),
-(185, 0, 0, 0, '', 0, 0, 0, 0, 0, 0, 75, 0),
-(186, 0, 0, 0, '', 0, 0, 0, 0, 0, 0, 62, 0),
-(187, 0, 0, 0, '', 0, 0, 0, 0, 0, 0, 70, 0),
-(188, 0, 0, 0, '', 0, 0, 0, 0, 0, 0, 145, 0),
-(189, 0, 0, 0, '', 0, 0, 0, 0, 0, 0, 185, 0),
-(191, 0, 0, 0, '', 0, 0, 0, 0, 0, 0, 60, 0),
-(192, 0, 0, 0, '', 0, 0, 0, 0, 0, 0, 73, 0),
-(193, 0, 0, 0, '', 0, 0, 0, 0, 0, 0, 53, 0),
-(194, 0, 0, 0, '', 0, 0, 0, 0, 0, 0, 61, 0),
-(195, 0, 0, 0, '', 0, 0, 0, 0, 0, 0, 71, 0),
-(196, 0, 0, 0, '', 0, 0, 0, 0, 0, 0, 55, 0),
-(197, 0, 0, 0, '', 0, 0, 0, 0, 0, 0, 143, 0),
-(198, 0, 0, 0, '', 0, 0, 0, 0, 0, 0, 168, 0),
-(199, 0, 0, 0, '', 0, 0, 0, 0, 0, 0, 78, 0),
-(200, 0, 0, 0, '', 0, 0, 0, 0, 0, 0, 63, 0),
-(201, 0, 0, 0, '', 0, 0, 0, 0, 0, 0, 27, 0),
-(202, 0, 0, 0, '', 0, 0, 0, 0, 0, 0, 54, 0),
-(203, 0, 0, 0, '', 0, 0, 0, 0, 0, 0, 80, 0),
-(204, 0, 0, 0, '', 0, 0, 0, 0, 0, 0, 145, 0),
-(205, 0, 0, 0, '', 0, 0, 0, 0, 0, 0, 32, 0),
-(206, 0, 0, 0, '', 0, 0, 0, 0, 0, 0, 279, 0),
-(207, 0, 0, 0, '', 0, 0, 0, 0, 0, 0, 52, 0),
-(208, 0, 0, 0, '', 0, 0, 0, 0, 0, 0, 52, 0),
-(209, 0, 0, 0, '', 0, 0, 0, 0, 0, 0, 366, 0),
-(210, 0, 0, 0, '', 0, 0, 0, 0, 0, 0, 403, 0),
-(211, 0, 0, 0, '', 0, 0, 0, 0, 0, 0, 402, 0),
-(212, 0, 0, 0, '', 0, 0, 0, 0, 0, 0, 61, 0),
-(213, 0, 0, 0, '', 0, 0, 0, 0, 0, 0, 224, 0),
-(214, 0, 0, 0, '', 0, 0, 0, 0, 0, 0, 18, 0),
-(215, 0, 0, 0, '', 0, 0, 0, 0, 0, 0, 18, 0),
-(216, 0, 0, 0, '', 0, 0, 0, 0, 0, 0, 84, 0),
-(217, 0, 0, 0, '', 0, 0, 0, 0, 0, 0, 113, 0),
-(218, 0, 0, 0, '', 0, 0, 0, 0, 0, 0, 326, 0),
-(219, 0, 0, 0, '', 0, 0, 0, 0, 0, 0, 160, 0),
-(220, 0, 0, 0, '', 0, 0, 0, 0, 0, 0, 267, 0),
-(221, 0, 0, 0, '', 0, 0, 0, 0, 0, 0, 275, 0),
-(222, 0, 0, 0, '', 0, 0, 0, 0, 0, 0, 33, 0),
-(223, 0, 0, 0, '', 0, 0, 0, 0, 0, 0, 45, 0),
-(224, 0, 0, 0, '', 0, 0, 0, 0, 0, 0, 143, 0),
-(225, 0, 0, 0, '', 0, 0, 0, 0, 0, 0, 234, 0),
-(226, 0, 0, 0, '', 0, 0, 0, 0, 0, 0, 132, 0),
-(227, 0, 0, 0, '', 0, 0, 0, 0, 0, 0, 115, 0),
-(228, 0, 0, 0, '', 0, 0, 0, 0, 0, 0, 259, 0),
-(229, 0, 0, 0, '', 0, 0, 0, 0, 0, 0, 169, 0),
-(230, 0, 0, 0, '', 0, 0, 0, 0, 0, 0, 70, 0),
-(231, 0, 0, 0, '', 0, 0, 0, 0, 0, 0, 60, 0),
-(232, 0, 0, 0, '', 0, 0, 0, 0, 0, 0, 132, 0),
-(233, 0, 0, 0, '', 0, 0, 0, 0, 0, 0, 157, 0),
-(234, 0, 0, 0, '', 0, 0, 0, 0, 0, 0, 215, 0),
-(235, 0, 0, 0, '', 0, 0, 0, 0, 0, 0, 228, 0),
-(236, 0, 0, 0, '', 0, 0, 0, 0, 0, 0, 120, 0),
-(237, 0, 0, 0, '', 0, 0, 0, 0, 0, 0, 49, 0),
-(238, 0, 0, 0, '', 0, 0, 0, 0, 0, 0, 49, 0),
-(239, 0, 0, 0, '', 0, 0, 0, 0, 0, 0, 180, 0),
-(240, 0, 0, 0, '', 0, 0, 0, 0, 0, 0, 165, 0),
-(241, 0, 0, 0, '', 0, 0, 0, 0, 0, 0, 433, 0),
-(242, 0, 0, 0, '', 0, 0, 0, 0, 0, 0, 311, 0),
-(243, 0, 0, 0, '', 0, 0, 0, 0, 0, 0, 411, 0),
-(244, 0, 0, 0, '', 0, 0, 0, 0, 0, 0, 278, 0),
-(245, 0, 0, 0, '', 0, 0, 0, 0, 0, 0, 70, 0),
-(246, 0, 0, 0, '', 0, 0, 0, 0, 0, 0, 54, 0),
-(247, 0, 0, 0, '', 0, 0, 0, 0, 0, 0, 36, 0),
-(248, 0, 0, 0, '', 0, 0, 0, 0, 0, 0, 36, 0),
-(249, 0, 0, 0, '', 0, 0, 0, 0, 0, 0, 121, 0),
-(251, 0, 0, 0, 'House #2', 0, 3, 0, 0, 0, 0, 56, 0),
-(252, 0, 0, 0, 'House #3', 0, 3, 0, 0, 0, 0, 61, 0),
-(253, 0, 0, 0, 'Ceu House #1', 0, 17, 0, 0, 0, 0, 70, 0),
-(254, 0, 0, 0, 'Ceu House #2', 0, 17, 0, 0, 0, 0, 72, 0),
-(255, 0, 0, 0, 'Ceu House #3', 0, 17, 0, 0, 0, 0, 192, 0),
-(256, 0, 0, 0, 'Ceu House #4', 0, 17, 0, 0, 0, 0, 192, 0),
-(257, 0, 0, 0, 'Ceu House #5', 0, 17, 0, 0, 0, 0, 208, 0),
-(258, 0, 0, 0, 'Ceu House #6', 0, 17, 0, 0, 0, 0, 144, 0),
-(259, 0, 0, 0, 'Ceu House #7', 0, 17, 0, 0, 0, 0, 141, 0),
-(260, 0, 0, 0, 'Ceu House #8', 0, 17, 0, 0, 0, 0, 141, 0),
-(261, 0, 0, 0, 'Ceu House #9', 0, 17, 0, 0, 0, 0, 105, 0),
-(262, 0, 0, 0, 'Ceu House #10', 0, 17, 0, 0, 0, 0, 147, 0),
-(263, 0, 0, 0, 'Ceu House #11', 0, 17, 0, 0, 0, 0, 181, 0),
-(264, 0, 0, 0, 'Ceu House #12', 0, 17, 0, 0, 0, 0, 116, 0),
-(265, 0, 0, 0, 'Ceu House #13', 0, 17, 0, 0, 0, 0, 82, 0),
-(266, 0, 0, 0, 'Ceu House #14', 0, 17, 0, 0, 0, 0, 163, 0),
-(267, 0, 0, 0, 'Ceu House #15', 0, 17, 0, 0, 0, 0, 190, 0),
-(268, 0, 0, 0, 'Ceu House #16', 0, 17, 0, 0, 0, 0, 77, 0);
-
 -- --------------------------------------------------------
 
 --
--- Estrutura da tabela `house_lists`
+-- Estrutura para tabela `house_lists`
 --
 
 CREATE TABLE `house_lists` (
@@ -1053,7 +738,7 @@ CREATE TABLE `house_lists` (
 -- --------------------------------------------------------
 
 --
--- Estrutura da tabela `ip_bans`
+-- Estrutura para tabela `ip_bans`
 --
 
 CREATE TABLE `ip_bans` (
@@ -1067,7 +752,7 @@ CREATE TABLE `ip_bans` (
 -- --------------------------------------------------------
 
 --
--- Estrutura da tabela `market_history`
+-- Estrutura para tabela `market_history`
 --
 
 CREATE TABLE `market_history` (
@@ -1085,7 +770,7 @@ CREATE TABLE `market_history` (
 -- --------------------------------------------------------
 
 --
--- Estrutura da tabela `market_offers`
+-- Estrutura para tabela `market_offers`
 --
 
 CREATE TABLE `market_offers` (
@@ -1103,7 +788,7 @@ CREATE TABLE `market_offers` (
 -- --------------------------------------------------------
 
 --
--- Estrutura da tabela `noticias`
+-- Estrutura para tabela `noticias`
 --
 
 CREATE TABLE `noticias` (
@@ -1120,7 +805,7 @@ CREATE TABLE `noticias` (
 -- --------------------------------------------------------
 
 --
--- Estrutura da tabela `pacotes`
+-- Estrutura para tabela `pacotes`
 --
 
 CREATE TABLE `pacotes` (
@@ -1142,7 +827,7 @@ CREATE TABLE `pacotes` (
 -- --------------------------------------------------------
 
 --
--- Estrutura da tabela `payments`
+-- Estrutura para tabela `payments`
 --
 
 CREATE TABLE `payments` (
@@ -1163,7 +848,7 @@ CREATE TABLE `payments` (
 -- --------------------------------------------------------
 
 --
--- Estrutura da tabela `pix_payment`
+-- Estrutura para tabela `pix_payment`
 --
 
 CREATE TABLE `pix_payment` (
@@ -1179,7 +864,7 @@ CREATE TABLE `pix_payment` (
 -- --------------------------------------------------------
 
 --
--- Estrutura da tabela `players`
+-- Estrutura para tabela `players`
 --
 
 CREATE TABLE `players` (
@@ -1247,11 +932,7 @@ CREATE TABLE `players` (
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 --
--- Extraindo dados da tabela `players`
---
-
---
--- Acionadores `players`
+-- Gatilhos `players`
 --
 DELIMITER $$
 CREATE TRIGGER `ondelete_players` BEFORE DELETE ON `players` FOR EACH ROW BEGIN
@@ -1263,7 +944,7 @@ DELIMITER ;
 -- --------------------------------------------------------
 
 --
--- Estrutura da tabela `players_online`
+-- Estrutura para tabela `players_online`
 --
 
 CREATE TABLE `players_online` (
@@ -1273,7 +954,7 @@ CREATE TABLE `players_online` (
 -- --------------------------------------------------------
 
 --
--- Estrutura da tabela `players_stringstorages`
+-- Estrutura para tabela `players_stringstorages`
 --
 
 CREATE TABLE `players_stringstorages` (
@@ -1282,17 +963,10 @@ CREATE TABLE `players_stringstorages` (
   `value` varchar(255) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
---
--- Extraindo dados da tabela `players_stringstorages`
---
-
-INSERT INTO `players_stringstorages` (`player_id`, `key`, `value`) VALUES
-(1, 750000, 'crafts');
-
 -- --------------------------------------------------------
 
 --
--- Estrutura da tabela `player_deaths`
+-- Estrutura para tabela `player_deaths`
 --
 
 CREATE TABLE `player_deaths` (
@@ -1310,7 +984,7 @@ CREATE TABLE `player_deaths` (
 -- --------------------------------------------------------
 
 --
--- Estrutura da tabela `player_depotitems`
+-- Estrutura para tabela `player_depotitems`
 --
 
 CREATE TABLE `player_depotitems` (
@@ -1325,7 +999,7 @@ CREATE TABLE `player_depotitems` (
 -- --------------------------------------------------------
 
 --
--- Estrutura da tabela `player_inboxitems`
+-- Estrutura para tabela `player_inboxitems`
 --
 
 CREATE TABLE `player_inboxitems` (
@@ -1340,7 +1014,7 @@ CREATE TABLE `player_inboxitems` (
 -- --------------------------------------------------------
 
 --
--- Estrutura da tabela `player_items`
+-- Estrutura para tabela `player_items`
 --
 
 CREATE TABLE `player_items` (
@@ -1352,32 +1026,10 @@ CREATE TABLE `player_items` (
   `attributes` blob NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
---
--- Extraindo dados da tabela `player_items`
---
-
-INSERT INTO `player_items` (`player_id`, `pid`, `sid`, `itemtype`, `count`, `attributes`) VALUES
-(5, 2, 101, 2580, 1, ''),
-(5, 3, 102, 1987, 1, 0x2300),
-(5, 7, 103, 2382, 1, ''),
-(5, 8, 104, 7731, 1, ''),
-(5, 9, 105, 2270, 1, ''),
-(5, 102, 106, 26738, 1, ''),
-(1, 2, 101, 2580, 1, ''),
-(1, 3, 102, 1987, 1, 0x2300),
-(1, 7, 103, 2382, 1, ''),
-(1, 8, 104, 7731, 1, ''),
-(1, 9, 105, 2270, 1, ''),
-(1, 102, 106, 26677, 1, 0x2db2285f67000000002e06000000000000000b0069736265696e67757365640200000000000000000b00706f6b656c6f6f6b6469720203000000000000000a00706f6b656865616c746802217500000000000008006c6f6f6b7479706502d4030000000000000900706f6b65626f6f73740200000000000000000800706f6b656e616d65010d007368696e79206e6f63746f776c),
-(1, 102, 107, 26677, 1, 0x2e06000000000000000b0069736265696e67757365640200000000000000000b00706f6b656c6f6f6b6469720201000000000000000a00706f6b656865616c746802633700000000000008006c6f6f6b74797065022f030000000000000900706f6b65626f6f73740200000000000000000800706f6b656e616d650107006e6f63746f776c),
-(1, 102, 108, 40609, 1, 0x240100),
-(1, 102, 109, 26677, 1, 0x2e0e000000000000000a00706f6b656865616c74680352b81e852b40e0400b0069736265696e67757365640200000000000000000b00706f6b656c6f6f6b6469720200000000000000000300636436024d255f670000000003006364350242255f670000000003006364320238255f6700000000030063643102201e5f67000000000300636433023d1e5f67000000000800706f6b656e616d650106006c61707261730300636438023f1e5f67000000000900706f6b65626f6f737402000000000000000008006c6f6f6b747970650283000000000000000300636434024c1e5f67000000000300636437023a1e5f6700000000),
-(1, 102, 110, 26738, 1, '');
-
 -- --------------------------------------------------------
 
 --
--- Estrutura da tabela `player_namelocks`
+-- Estrutura para tabela `player_namelocks`
 --
 
 CREATE TABLE `player_namelocks` (
@@ -1390,7 +1042,7 @@ CREATE TABLE `player_namelocks` (
 -- --------------------------------------------------------
 
 --
--- Estrutura da tabela `player_seller`
+-- Estrutura para tabela `player_seller`
 --
 
 CREATE TABLE `player_seller` (
@@ -1405,7 +1057,7 @@ CREATE TABLE `player_seller` (
 -- --------------------------------------------------------
 
 --
--- Estrutura da tabela `player_spells`
+-- Estrutura para tabela `player_spells`
 --
 
 CREATE TABLE `player_spells` (
@@ -1416,7 +1068,7 @@ CREATE TABLE `player_spells` (
 -- --------------------------------------------------------
 
 --
--- Estrutura da tabela `player_storage`
+-- Estrutura para tabela `player_storage`
 --
 
 CREATE TABLE `player_storage` (
@@ -1425,40 +1077,10 @@ CREATE TABLE `player_storage` (
   `value` int NOT NULL DEFAULT '0'
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
---
--- Extraindo dados da tabela `player_storage`
---
-
-INSERT INTO `player_storage` (`player_id`, `key`, `value`) VALUES
-(1, 5009, 1),
-(1, 10002, 1),
-(1, 71344, 36),
-(1, 72703, 45),
-(1, 395000, 1),
-(1, 604000, 0),
-(1, 764003, 1),
-(1, 764007, 4),
-(1, 870006, 1),
-(1, 870010, 1),
-(1, 870016, 1),
-(1, 870022, 1),
-(1, 870045, 1),
-(1, 870065, 1),
-(1, 870069, 1),
-(1, 870094, 1),
-(1, 870114, 1),
-(1, 870131, 1),
-(1, 870649, 1),
-(1, 1980000, 1732591862),
-(5, 5009, 1),
-(5, 71344, 0),
-(5, 72703, 3),
-(5, 604000, 0);
-
 -- --------------------------------------------------------
 
 --
--- Estrutura da tabela `pokeball_stats`
+-- Estrutura para tabela `pokeball_stats`
 --
 
 CREATE TABLE `pokeball_stats` (
@@ -1496,7 +1118,7 @@ CREATE TABLE `pokeball_stats` (
 -- --------------------------------------------------------
 
 --
--- Estrutura da tabela `pokemon_points`
+-- Estrutura para tabela `pokemon_points`
 --
 
 CREATE TABLE `pokemon_points` (
@@ -1508,7 +1130,7 @@ CREATE TABLE `pokemon_points` (
 -- --------------------------------------------------------
 
 --
--- Estrutura da tabela `push`
+-- Estrutura para tabela `push`
 --
 
 CREATE TABLE `push` (
@@ -1522,7 +1144,7 @@ CREATE TABLE `push` (
 -- --------------------------------------------------------
 
 --
--- Estrutura da tabela `redeem_codes`
+-- Estrutura para tabela `redeem_codes`
 --
 
 CREATE TABLE `redeem_codes` (
@@ -1537,7 +1159,7 @@ CREATE TABLE `redeem_codes` (
 -- --------------------------------------------------------
 
 --
--- Estrutura da tabela `server_config`
+-- Estrutura para tabela `server_config`
 --
 
 CREATE TABLE `server_config` (
@@ -1545,19 +1167,10 @@ CREATE TABLE `server_config` (
   `value` varchar(256) NOT NULL DEFAULT ''
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
---
--- Extraindo dados da tabela `server_config`
---
-
-INSERT INTO `server_config` (`config`, `value`) VALUES
-('motd_hash', 'a6afd77936a557689fc7902fc7a227c78df6fb55'),
-('motd_num', '2'),
-('players_record', '2');
-
 -- --------------------------------------------------------
 
 --
--- Estrutura da tabela `shop_historico`
+-- Estrutura para tabela `shop_historico`
 --
 
 CREATE TABLE `shop_historico` (
@@ -1578,7 +1191,7 @@ CREATE TABLE `shop_historico` (
 -- --------------------------------------------------------
 
 --
--- Estrutura da tabela `shop_history`
+-- Estrutura para tabela `shop_history`
 --
 
 CREATE TABLE `shop_history` (
@@ -1595,7 +1208,7 @@ CREATE TABLE `shop_history` (
 -- --------------------------------------------------------
 
 --
--- Estrutura da tabela `shop_image`
+-- Estrutura para tabela `shop_image`
 --
 
 CREATE TABLE `shop_image` (
@@ -1608,7 +1221,7 @@ CREATE TABLE `shop_image` (
 -- --------------------------------------------------------
 
 --
--- Estrutura da tabela `shop_item`
+-- Estrutura para tabela `shop_item`
 --
 
 CREATE TABLE `shop_item` (
@@ -1632,7 +1245,7 @@ CREATE TABLE `shop_item` (
 -- --------------------------------------------------------
 
 --
--- Estrutura da tabela `suporte`
+-- Estrutura para tabela `suporte`
 --
 
 CREATE TABLE `suporte` (
@@ -1651,7 +1264,7 @@ CREATE TABLE `suporte` (
 -- --------------------------------------------------------
 
 --
--- Estrutura da tabela `suporte_respostas`
+-- Estrutura para tabela `suporte_respostas`
 --
 
 CREATE TABLE `suporte_respostas` (
@@ -1666,7 +1279,7 @@ CREATE TABLE `suporte_respostas` (
 -- --------------------------------------------------------
 
 --
--- Estrutura da tabela `tile_store`
+-- Estrutura para tabela `tile_store`
 --
 
 CREATE TABLE `tile_store` (
@@ -1677,7 +1290,7 @@ CREATE TABLE `tile_store` (
 -- --------------------------------------------------------
 
 --
--- Estrutura da tabela `tokenvalidat`
+-- Estrutura para tabela `tokenvalidat`
 --
 
 CREATE TABLE `tokenvalidat` (
@@ -1691,7 +1304,7 @@ CREATE TABLE `tokenvalidat` (
 -- --------------------------------------------------------
 
 --
--- Estrutura da tabela `verificar_callback`
+-- Estrutura para tabela `verificar_callback`
 --
 
 CREATE TABLE `verificar_callback` (
@@ -1700,25 +1313,25 @@ CREATE TABLE `verificar_callback` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 
 --
--- Índices para tabelas despejadas
+-- Índices de tabelas apagadas
 --
 
 --
--- Índices para tabela `accounts`
+-- Índices de tabela `accounts`
 --
 ALTER TABLE `accounts`
   ADD PRIMARY KEY (`id`),
   ADD UNIQUE KEY `name` (`name`);
 
 --
--- Índices para tabela `account_bans`
+-- Índices de tabela `account_bans`
 --
 ALTER TABLE `account_bans`
   ADD PRIMARY KEY (`account_id`),
   ADD KEY `banned_by` (`banned_by`);
 
 --
--- Índices para tabela `account_ban_history`
+-- Índices de tabela `account_ban_history`
 --
 ALTER TABLE `account_ban_history`
   ADD PRIMARY KEY (`id`),
@@ -1726,152 +1339,152 @@ ALTER TABLE `account_ban_history`
   ADD KEY `banned_by` (`banned_by`);
 
 --
--- Índices para tabela `account_viplist`
+-- Índices de tabela `account_viplist`
 --
 ALTER TABLE `account_viplist`
   ADD UNIQUE KEY `account_player_index` (`account_id`,`player_id`),
   ADD KEY `player_id` (`player_id`);
 
 --
--- Índices para tabela `blocked_ips`
+-- Índices de tabela `blocked_ips`
 --
 ALTER TABLE `blocked_ips`
   ADD PRIMARY KEY (`id`);
 
 --
--- Índices para tabela `bonificacoes`
+-- Índices de tabela `bonificacoes`
 --
 ALTER TABLE `bonificacoes`
   ADD PRIMARY KEY (`id`);
 
 --
--- Índices para tabela `boss_ranking`
+-- Índices de tabela `boss_ranking`
 --
 ALTER TABLE `boss_ranking`
   ADD PRIMARY KEY (`classificacao`,`player`);
 
 --
--- Índices para tabela `categoria`
+-- Índices de tabela `categoria`
 --
 ALTER TABLE `categoria`
   ADD PRIMARY KEY (`id`);
 
 --
--- Índices para tabela `config_categoria_wiki`
+-- Índices de tabela `config_categoria_wiki`
 --
 ALTER TABLE `config_categoria_wiki`
   ADD PRIMARY KEY (`id`);
 
 --
--- Índices para tabela `config_inicio`
+-- Índices de tabela `config_inicio`
 --
 ALTER TABLE `config_inicio`
   ADD PRIMARY KEY (`id`);
 
 --
--- Índices para tabela `config_permission_bazar`
+-- Índices de tabela `config_permission_bazar`
 --
 ALTER TABLE `config_permission_bazar`
   ADD PRIMARY KEY (`id`);
 
 --
--- Índices para tabela `config_permission_bonificacao`
+-- Índices de tabela `config_permission_bonificacao`
 --
 ALTER TABLE `config_permission_bonificacao`
   ADD PRIMARY KEY (`id`);
 
 --
--- Índices para tabela `config_permission_inicio`
+-- Índices de tabela `config_permission_inicio`
 --
 ALTER TABLE `config_permission_inicio`
   ADD PRIMARY KEY (`id`);
 
 --
--- Índices para tabela `config_permission_noticia`
+-- Índices de tabela `config_permission_noticia`
 --
 ALTER TABLE `config_permission_noticia`
   ADD PRIMARY KEY (`id`);
 
 --
--- Índices para tabela `config_permission_pacotes`
+-- Índices de tabela `config_permission_pacotes`
 --
 ALTER TABLE `config_permission_pacotes`
   ADD PRIMARY KEY (`id`);
 
 --
--- Índices para tabela `config_permission_promocional`
+-- Índices de tabela `config_permission_promocional`
 --
 ALTER TABLE `config_permission_promocional`
   ADD PRIMARY KEY (`id`);
 
 --
--- Índices para tabela `config_permission_push`
+-- Índices de tabela `config_permission_push`
 --
 ALTER TABLE `config_permission_push`
   ADD PRIMARY KEY (`id`);
 
 --
--- Índices para tabela `config_permission_quests`
+-- Índices de tabela `config_permission_quests`
 --
 ALTER TABLE `config_permission_quests`
   ADD PRIMARY KEY (`id`);
 
 --
--- Índices para tabela `config_permission_team`
+-- Índices de tabela `config_permission_team`
 --
 ALTER TABLE `config_permission_team`
   ADD PRIMARY KEY (`id`);
 
 --
--- Índices para tabela `config_permission_wiki`
+-- Índices de tabela `config_permission_wiki`
 --
 ALTER TABLE `config_permission_wiki`
   ADD PRIMARY KEY (`id`);
 
 --
--- Índices para tabela `config_promocional`
+-- Índices de tabela `config_promocional`
 --
 ALTER TABLE `config_promocional`
   ADD PRIMARY KEY (`id`);
 
 --
--- Índices para tabela `config_quests`
+-- Índices de tabela `config_quests`
 --
 ALTER TABLE `config_quests`
   ADD PRIMARY KEY (`id`);
 
 --
--- Índices para tabela `config_team`
+-- Índices de tabela `config_team`
 --
 ALTER TABLE `config_team`
   ADD PRIMARY KEY (`id`);
 
 --
--- Índices para tabela `config_vocations`
+-- Índices de tabela `config_vocations`
 --
 ALTER TABLE `config_vocations`
   ADD PRIMARY KEY (`id`);
 
 --
--- Índices para tabela `config_wiki`
+-- Índices de tabela `config_wiki`
 --
 ALTER TABLE `config_wiki`
   ADD PRIMARY KEY (`id`);
 
 --
--- Índices para tabela `download`
+-- Índices de tabela `download`
 --
 ALTER TABLE `download`
   ADD PRIMARY KEY (`id`);
 
 --
--- Índices para tabela `global_storage`
+-- Índices de tabela `global_storage`
 --
 ALTER TABLE `global_storage`
   ADD UNIQUE KEY `key` (`key`);
 
 --
--- Índices para tabela `guilds`
+-- Índices de tabela `guilds`
 --
 ALTER TABLE `guilds`
   ADD PRIMARY KEY (`id`),
@@ -1879,33 +1492,33 @@ ALTER TABLE `guilds`
   ADD UNIQUE KEY `ownerid` (`ownerid`);
 
 --
--- Índices para tabela `guilds_inbox`
+-- Índices de tabela `guilds_inbox`
 --
 ALTER TABLE `guilds_inbox`
   ADD PRIMARY KEY (`id`);
 
 --
--- Índices para tabela `guilds_inbox_old`
+-- Índices de tabela `guilds_inbox_old`
 --
 ALTER TABLE `guilds_inbox_old`
   ADD KEY `player_id` (`player_id`);
 
 --
--- Índices para tabela `guilds_player_inbox`
+-- Índices de tabela `guilds_player_inbox`
 --
 ALTER TABLE `guilds_player_inbox`
   ADD KEY `player_id` (`player_id`),
   ADD KEY `inbox_id` (`inbox_id`);
 
 --
--- Índices para tabela `guildwar_kills`
+-- Índices de tabela `guildwar_kills`
 --
 ALTER TABLE `guildwar_kills`
   ADD PRIMARY KEY (`id`),
   ADD KEY `warid` (`warid`);
 
 --
--- Índices para tabela `guild_invites`
+-- Índices de tabela `guild_invites`
 --
 ALTER TABLE `guild_invites`
   ADD PRIMARY KEY (`id`),
@@ -1913,7 +1526,7 @@ ALTER TABLE `guild_invites`
   ADD KEY `player_id` (`player_id`,`guild_id`) USING BTREE;
 
 --
--- Índices para tabela `guild_members`
+-- Índices de tabela `guild_members`
 --
 ALTER TABLE `guild_members`
   ADD PRIMARY KEY (`player_id`),
@@ -1921,14 +1534,14 @@ ALTER TABLE `guild_members`
   ADD KEY `rank_id` (`rank_id`);
 
 --
--- Índices para tabela `guild_ranks`
+-- Índices de tabela `guild_ranks`
 --
 ALTER TABLE `guild_ranks`
   ADD PRIMARY KEY (`id`),
   ADD KEY `guild_id` (`guild_id`);
 
 --
--- Índices para tabela `guild_wars`
+-- Índices de tabela `guild_wars`
 --
 ALTER TABLE `guild_wars`
   ADD PRIMARY KEY (`id`),
@@ -1937,31 +1550,31 @@ ALTER TABLE `guild_wars`
   ADD KEY `winner` (`winner`);
 
 --
--- Índices para tabela `historico_bazar`
+-- Índices de tabela `historico_bazar`
 --
 ALTER TABLE `historico_bazar`
   ADD PRIMARY KEY (`id`);
 
 --
--- Índices para tabela `historico_mp`
+-- Índices de tabela `historico_mp`
 --
 ALTER TABLE `historico_mp`
   ADD PRIMARY KEY (`id`);
 
 --
--- Índices para tabela `historico_mp_shop`
+-- Índices de tabela `historico_mp_shop`
 --
 ALTER TABLE `historico_mp_shop`
   ADD PRIMARY KEY (`id`);
 
 --
--- Índices para tabela `historico_pagamentos`
+-- Índices de tabela `historico_pagamentos`
 --
 ALTER TABLE `historico_pagamentos`
   ADD PRIMARY KEY (`id`);
 
 --
--- Índices para tabela `houses`
+-- Índices de tabela `houses`
 --
 ALTER TABLE `houses`
   ADD PRIMARY KEY (`id`),
@@ -1969,27 +1582,27 @@ ALTER TABLE `houses`
   ADD KEY `town_id` (`town_id`);
 
 --
--- Índices para tabela `house_lists`
+-- Índices de tabela `house_lists`
 --
 ALTER TABLE `house_lists`
   ADD KEY `house_id` (`house_id`);
 
 --
--- Índices para tabela `ip_bans`
+-- Índices de tabela `ip_bans`
 --
 ALTER TABLE `ip_bans`
   ADD PRIMARY KEY (`ip`),
   ADD KEY `banned_by` (`banned_by`);
 
 --
--- Índices para tabela `market_history`
+-- Índices de tabela `market_history`
 --
 ALTER TABLE `market_history`
   ADD PRIMARY KEY (`id`),
   ADD KEY `player_id` (`player_id`,`sale`);
 
 --
--- Índices para tabela `market_offers`
+-- Índices de tabela `market_offers`
 --
 ALTER TABLE `market_offers`
   ADD PRIMARY KEY (`id`),
@@ -1998,32 +1611,32 @@ ALTER TABLE `market_offers`
   ADD KEY `player_id` (`player_id`);
 
 --
--- Índices para tabela `noticias`
+-- Índices de tabela `noticias`
 --
 ALTER TABLE `noticias`
   ADD PRIMARY KEY (`id`);
 
 --
--- Índices para tabela `pacotes`
+-- Índices de tabela `pacotes`
 --
 ALTER TABLE `pacotes`
   ADD PRIMARY KEY (`id`);
 
 --
--- Índices para tabela `payments`
+-- Índices de tabela `payments`
 --
 ALTER TABLE `payments`
   ADD PRIMARY KEY (`id`);
 
 --
--- Índices para tabela `pix_payment`
+-- Índices de tabela `pix_payment`
 --
 ALTER TABLE `pix_payment`
   ADD UNIQUE KEY `txid` (`txid`),
   ADD UNIQUE KEY `loc` (`loc_id`);
 
 --
--- Índices para tabela `players`
+-- Índices de tabela `players`
 --
 ALTER TABLE `players`
   ADD PRIMARY KEY (`id`),
@@ -2032,19 +1645,19 @@ ALTER TABLE `players`
   ADD KEY `vocation` (`vocation`);
 
 --
--- Índices para tabela `players_online`
+-- Índices de tabela `players_online`
 --
 ALTER TABLE `players_online`
   ADD PRIMARY KEY (`player_id`);
 
 --
--- Índices para tabela `players_stringstorages`
+-- Índices de tabela `players_stringstorages`
 --
 ALTER TABLE `players_stringstorages`
   ADD PRIMARY KEY (`player_id`,`key`);
 
 --
--- Índices para tabela `player_deaths`
+-- Índices de tabela `player_deaths`
 --
 ALTER TABLE `player_deaths`
   ADD KEY `player_id` (`player_id`),
@@ -2052,88 +1665,88 @@ ALTER TABLE `player_deaths`
   ADD KEY `mostdamage_by` (`mostdamage_by`);
 
 --
--- Índices para tabela `player_depotitems`
+-- Índices de tabela `player_depotitems`
 --
 ALTER TABLE `player_depotitems`
   ADD UNIQUE KEY `player_id_2` (`player_id`,`sid`);
 
 --
--- Índices para tabela `player_inboxitems`
+-- Índices de tabela `player_inboxitems`
 --
 ALTER TABLE `player_inboxitems`
   ADD UNIQUE KEY `player_id_2` (`player_id`,`sid`);
 
 --
--- Índices para tabela `player_items`
+-- Índices de tabela `player_items`
 --
 ALTER TABLE `player_items`
   ADD KEY `player_id` (`player_id`),
   ADD KEY `sid` (`sid`);
 
 --
--- Índices para tabela `player_namelocks`
+-- Índices de tabela `player_namelocks`
 --
 ALTER TABLE `player_namelocks`
   ADD PRIMARY KEY (`player_id`),
   ADD KEY `namelocked_by` (`namelocked_by`);
 
 --
--- Índices para tabela `player_seller`
+-- Índices de tabela `player_seller`
 --
 ALTER TABLE `player_seller`
   ADD PRIMARY KEY (`id`);
 
 --
--- Índices para tabela `player_spells`
+-- Índices de tabela `player_spells`
 --
 ALTER TABLE `player_spells`
   ADD KEY `player_id` (`player_id`);
 
 --
--- Índices para tabela `player_storage`
+-- Índices de tabela `player_storage`
 --
 ALTER TABLE `player_storage`
   ADD PRIMARY KEY (`player_id`,`key`);
 
 --
--- Índices para tabela `pokeball_stats`
+-- Índices de tabela `pokeball_stats`
 --
 ALTER TABLE `pokeball_stats`
   ADD PRIMARY KEY (`player_id`,`pokemonName`);
 
 --
--- Índices para tabela `pokemon_points`
+-- Índices de tabela `pokemon_points`
 --
 ALTER TABLE `pokemon_points`
   ADD PRIMARY KEY (`player_id`,`pokemonName`);
 
 --
--- Índices para tabela `push`
+-- Índices de tabela `push`
 --
 ALTER TABLE `push`
   ADD PRIMARY KEY (`id`);
 
 --
--- Índices para tabela `redeem_codes`
+-- Índices de tabela `redeem_codes`
 --
 ALTER TABLE `redeem_codes`
   ADD PRIMARY KEY (`id`),
   ADD UNIQUE KEY `id` (`id`,`player_id`);
 
 --
--- Índices para tabela `server_config`
+-- Índices de tabela `server_config`
 --
 ALTER TABLE `server_config`
   ADD PRIMARY KEY (`config`);
 
 --
--- Índices para tabela `shop_historico`
+-- Índices de tabela `shop_historico`
 --
 ALTER TABLE `shop_historico`
   ADD PRIMARY KEY (`id`);
 
 --
--- Índices para tabela `shop_history`
+-- Índices de tabela `shop_history`
 --
 ALTER TABLE `shop_history`
   ADD PRIMARY KEY (`id`),
@@ -2141,56 +1754,56 @@ ALTER TABLE `shop_history`
   ADD KEY `player` (`player`);
 
 --
--- Índices para tabela `shop_image`
+-- Índices de tabela `shop_image`
 --
 ALTER TABLE `shop_image`
   ADD PRIMARY KEY (`id`);
 
 --
--- Índices para tabela `shop_item`
+-- Índices de tabela `shop_item`
 --
 ALTER TABLE `shop_item`
   ADD PRIMARY KEY (`id`);
 
 --
--- Índices para tabela `suporte`
+-- Índices de tabela `suporte`
 --
 ALTER TABLE `suporte`
   ADD PRIMARY KEY (`id`);
 
 --
--- Índices para tabela `suporte_respostas`
+-- Índices de tabela `suporte_respostas`
 --
 ALTER TABLE `suporte_respostas`
   ADD PRIMARY KEY (`id`);
 
 --
--- Índices para tabela `tile_store`
+-- Índices de tabela `tile_store`
 --
 ALTER TABLE `tile_store`
   ADD KEY `house_id` (`house_id`);
 
 --
--- Índices para tabela `tokenvalidat`
+-- Índices de tabela `tokenvalidat`
 --
 ALTER TABLE `tokenvalidat`
   ADD PRIMARY KEY (`id`);
 
 --
--- Índices para tabela `verificar_callback`
+-- Índices de tabela `verificar_callback`
 --
 ALTER TABLE `verificar_callback`
   ADD PRIMARY KEY (`id`);
 
 --
--- AUTO_INCREMENT de tabelas despejadas
+-- AUTO_INCREMENT de tabelas apagadas
 --
 
 --
 -- AUTO_INCREMENT de tabela `accounts`
 --
 ALTER TABLE `accounts`
-  MODIFY `id` int NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
+  MODIFY `id` int NOT NULL AUTO_INCREMENT;
 
 --
 -- AUTO_INCREMENT de tabela `account_ban_history`
@@ -2328,13 +1941,13 @@ ALTER TABLE `download`
 -- AUTO_INCREMENT de tabela `guilds`
 --
 ALTER TABLE `guilds`
-  MODIFY `id` int NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
+  MODIFY `id` int NOT NULL AUTO_INCREMENT;
 
 --
 -- AUTO_INCREMENT de tabela `guilds_inbox`
 --
 ALTER TABLE `guilds_inbox`
-  MODIFY `id` int NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=7;
+  MODIFY `id` int NOT NULL AUTO_INCREMENT;
 
 --
 -- AUTO_INCREMENT de tabela `guildwar_kills`
@@ -2352,7 +1965,7 @@ ALTER TABLE `guild_invites`
 -- AUTO_INCREMENT de tabela `guild_ranks`
 --
 ALTER TABLE `guild_ranks`
-  MODIFY `id` int NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=13;
+  MODIFY `id` int NOT NULL AUTO_INCREMENT;
 
 --
 -- AUTO_INCREMENT de tabela `guild_wars`
@@ -2388,7 +2001,7 @@ ALTER TABLE `historico_pagamentos`
 -- AUTO_INCREMENT de tabela `houses`
 --
 ALTER TABLE `houses`
-  MODIFY `id` int NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=269;
+  MODIFY `id` int NOT NULL AUTO_INCREMENT;
 
 --
 -- AUTO_INCREMENT de tabela `market_history`
@@ -2400,7 +2013,7 @@ ALTER TABLE `market_history`
 -- AUTO_INCREMENT de tabela `market_offers`
 --
 ALTER TABLE `market_offers`
-  MODIFY `id` int UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=209;
+  MODIFY `id` int UNSIGNED NOT NULL AUTO_INCREMENT;
 
 --
 -- AUTO_INCREMENT de tabela `noticias`
@@ -2424,7 +2037,7 @@ ALTER TABLE `payments`
 -- AUTO_INCREMENT de tabela `players`
 --
 ALTER TABLE `players`
-  MODIFY `id` int NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=6;
+  MODIFY `id` int NOT NULL AUTO_INCREMENT;
 
 --
 -- AUTO_INCREMENT de tabela `player_seller`
@@ -2487,63 +2100,63 @@ ALTER TABLE `verificar_callback`
   MODIFY `id` int NOT NULL AUTO_INCREMENT;
 
 --
--- Restrições para despejos de tabelas
+-- Restrições para dumps de tabelas
 --
 
 --
--- Limitadores para a tabela `account_bans`
+-- Restrições para tabelas `account_bans`
 --
 ALTER TABLE `account_bans`
   ADD CONSTRAINT `account_bans_ibfk_1` FOREIGN KEY (`account_id`) REFERENCES `accounts` (`id`) ON DELETE CASCADE ON UPDATE CASCADE,
   ADD CONSTRAINT `account_bans_ibfk_2` FOREIGN KEY (`banned_by`) REFERENCES `players` (`id`) ON DELETE CASCADE ON UPDATE CASCADE;
 
 --
--- Limitadores para a tabela `account_ban_history`
+-- Restrições para tabelas `account_ban_history`
 --
 ALTER TABLE `account_ban_history`
   ADD CONSTRAINT `account_ban_history_ibfk_1` FOREIGN KEY (`account_id`) REFERENCES `accounts` (`id`) ON DELETE CASCADE ON UPDATE CASCADE,
   ADD CONSTRAINT `account_ban_history_ibfk_2` FOREIGN KEY (`banned_by`) REFERENCES `players` (`id`) ON DELETE CASCADE ON UPDATE CASCADE;
 
 --
--- Limitadores para a tabela `account_viplist`
+-- Restrições para tabelas `account_viplist`
 --
 ALTER TABLE `account_viplist`
   ADD CONSTRAINT `account_viplist_ibfk_1` FOREIGN KEY (`account_id`) REFERENCES `accounts` (`id`) ON DELETE CASCADE,
   ADD CONSTRAINT `account_viplist_ibfk_2` FOREIGN KEY (`player_id`) REFERENCES `players` (`id`) ON DELETE CASCADE;
 
 --
--- Limitadores para a tabela `guilds`
+-- Restrições para tabelas `guilds`
 --
 ALTER TABLE `guilds`
   ADD CONSTRAINT `guilds_ibfk_1` FOREIGN KEY (`ownerid`) REFERENCES `players` (`id`) ON DELETE CASCADE;
 
 --
--- Limitadores para a tabela `guilds_inbox_old`
+-- Restrições para tabelas `guilds_inbox_old`
 --
 ALTER TABLE `guilds_inbox_old`
   ADD CONSTRAINT `guilds_inbox_old_ibfk_1` FOREIGN KEY (`player_id`) REFERENCES `players` (`id`) ON DELETE CASCADE;
 
 --
--- Limitadores para a tabela `guilds_player_inbox`
+-- Restrições para tabelas `guilds_player_inbox`
 --
 ALTER TABLE `guilds_player_inbox`
   ADD CONSTRAINT `guilds_player_inbox_ibfk_1` FOREIGN KEY (`player_id`) REFERENCES `players` (`id`) ON DELETE CASCADE,
   ADD CONSTRAINT `guilds_player_inbox_ibfk_2` FOREIGN KEY (`inbox_id`) REFERENCES `guilds_inbox` (`id`) ON DELETE CASCADE;
 
 --
--- Limitadores para a tabela `guildwar_kills`
+-- Restrições para tabelas `guildwar_kills`
 --
 ALTER TABLE `guildwar_kills`
   ADD CONSTRAINT `guildwar_kills_ibfk_1` FOREIGN KEY (`warid`) REFERENCES `guild_wars` (`id`) ON DELETE CASCADE;
 
 --
--- Limitadores para a tabela `guild_invites`
+-- Restrições para tabelas `guild_invites`
 --
 ALTER TABLE `guild_invites`
   ADD CONSTRAINT `guild_invites_ibfk_1` FOREIGN KEY (`player_id`) REFERENCES `players` (`id`) ON DELETE CASCADE;
 
 --
--- Limitadores para a tabela `guild_members`
+-- Restrições para tabelas `guild_members`
 --
 ALTER TABLE `guild_members`
   ADD CONSTRAINT `guild_members_ibfk_1` FOREIGN KEY (`player_id`) REFERENCES `players` (`id`) ON DELETE CASCADE ON UPDATE CASCADE,
@@ -2551,13 +2164,13 @@ ALTER TABLE `guild_members`
   ADD CONSTRAINT `guild_members_ibfk_3` FOREIGN KEY (`rank_id`) REFERENCES `guild_ranks` (`id`);
 
 --
--- Limitadores para a tabela `guild_ranks`
+-- Restrições para tabelas `guild_ranks`
 --
 ALTER TABLE `guild_ranks`
   ADD CONSTRAINT `guild_ranks_ibfk_1` FOREIGN KEY (`guild_id`) REFERENCES `guilds` (`id`) ON DELETE CASCADE;
 
 --
--- Limitadores para a tabela `guild_wars`
+-- Restrições para tabelas `guild_wars`
 --
 ALTER TABLE `guild_wars`
   ADD CONSTRAINT `guild_wars_ibfk_1` FOREIGN KEY (`guild1`) REFERENCES `guilds` (`id`) ON DELETE CASCADE ON UPDATE CASCADE,
@@ -2565,87 +2178,87 @@ ALTER TABLE `guild_wars`
   ADD CONSTRAINT `guild_wars_ibfk_3` FOREIGN KEY (`winner`) REFERENCES `guilds` (`id`) ON DELETE CASCADE ON UPDATE CASCADE;
 
 --
--- Limitadores para a tabela `house_lists`
+-- Restrições para tabelas `house_lists`
 --
 ALTER TABLE `house_lists`
   ADD CONSTRAINT `house_lists_ibfk_1` FOREIGN KEY (`house_id`) REFERENCES `houses` (`id`) ON DELETE CASCADE;
 
 --
--- Limitadores para a tabela `ip_bans`
+-- Restrições para tabelas `ip_bans`
 --
 ALTER TABLE `ip_bans`
   ADD CONSTRAINT `ip_bans_ibfk_1` FOREIGN KEY (`banned_by`) REFERENCES `players` (`id`) ON DELETE CASCADE ON UPDATE CASCADE;
 
 --
--- Limitadores para a tabela `market_history`
+-- Restrições para tabelas `market_history`
 --
 ALTER TABLE `market_history`
   ADD CONSTRAINT `market_history_ibfk_1` FOREIGN KEY (`player_id`) REFERENCES `players` (`id`) ON DELETE CASCADE;
 
 --
--- Limitadores para a tabela `market_offers`
+-- Restrições para tabelas `market_offers`
 --
 ALTER TABLE `market_offers`
   ADD CONSTRAINT `market_offers_ibfk_1` FOREIGN KEY (`player_id`) REFERENCES `players` (`id`) ON DELETE CASCADE;
 
 --
--- Limitadores para a tabela `players`
+-- Restrições para tabelas `players`
 --
 ALTER TABLE `players`
   ADD CONSTRAINT `players_ibfk_1` FOREIGN KEY (`account_id`) REFERENCES `accounts` (`id`) ON DELETE CASCADE;
 
 --
--- Limitadores para a tabela `player_deaths`
+-- Restrições para tabelas `player_deaths`
 --
 ALTER TABLE `player_deaths`
   ADD CONSTRAINT `player_deaths_ibfk_1` FOREIGN KEY (`player_id`) REFERENCES `players` (`id`) ON DELETE CASCADE;
 
 --
--- Limitadores para a tabela `player_depotitems`
+-- Restrições para tabelas `player_depotitems`
 --
 ALTER TABLE `player_depotitems`
   ADD CONSTRAINT `player_depotitems_ibfk_1` FOREIGN KEY (`player_id`) REFERENCES `players` (`id`) ON DELETE CASCADE;
 
 --
--- Limitadores para a tabela `player_inboxitems`
+-- Restrições para tabelas `player_inboxitems`
 --
 ALTER TABLE `player_inboxitems`
   ADD CONSTRAINT `player_inboxitems_ibfk_1` FOREIGN KEY (`player_id`) REFERENCES `players` (`id`) ON DELETE CASCADE;
 
 --
--- Limitadores para a tabela `player_items`
+-- Restrições para tabelas `player_items`
 --
 ALTER TABLE `player_items`
   ADD CONSTRAINT `player_items_ibfk_1` FOREIGN KEY (`player_id`) REFERENCES `players` (`id`) ON DELETE CASCADE;
 
 --
--- Limitadores para a tabela `player_namelocks`
+-- Restrições para tabelas `player_namelocks`
 --
 ALTER TABLE `player_namelocks`
   ADD CONSTRAINT `player_namelocks_ibfk_1` FOREIGN KEY (`player_id`) REFERENCES `players` (`id`) ON DELETE CASCADE ON UPDATE CASCADE,
   ADD CONSTRAINT `player_namelocks_ibfk_2` FOREIGN KEY (`namelocked_by`) REFERENCES `players` (`id`) ON DELETE CASCADE ON UPDATE CASCADE;
 
 --
--- Limitadores para a tabela `player_spells`
+-- Restrições para tabelas `player_spells`
 --
 ALTER TABLE `player_spells`
   ADD CONSTRAINT `player_spells_ibfk_1` FOREIGN KEY (`player_id`) REFERENCES `players` (`id`) ON DELETE CASCADE;
 
 --
--- Limitadores para a tabela `player_storage`
+-- Restrições para tabelas `player_storage`
 --
 ALTER TABLE `player_storage`
   ADD CONSTRAINT `player_storage_ibfk_1` FOREIGN KEY (`player_id`) REFERENCES `players` (`id`) ON DELETE CASCADE;
 
 --
--- Limitadores para a tabela `shop_history`
+-- Restrições para tabelas `shop_history`
 --
 ALTER TABLE `shop_history`
   ADD CONSTRAINT `shop_history_ibfk_1` FOREIGN KEY (`account`) REFERENCES `accounts` (`id`) ON DELETE CASCADE,
   ADD CONSTRAINT `shop_history_ibfk_2` FOREIGN KEY (`player`) REFERENCES `players` (`id`) ON DELETE CASCADE;
 
 --
--- Limitadores para a tabela `tile_store`
+-- Restrições para tabelas `tile_store`
 --
 ALTER TABLE `tile_store`
   ADD CONSTRAINT `tile_store_ibfk_1` FOREIGN KEY (`house_id`) REFERENCES `houses` (`id`) ON DELETE CASCADE;
