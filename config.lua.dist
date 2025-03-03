@@ -70,7 +70,7 @@ timeBetweenExActions = 50
 
 -- Map
 -- NOTE: set mapName WITHOUT .otbm at the end
-mapName = "map2"
+mapName = "map"
 mapAuthor = ""
 
 -- Market
