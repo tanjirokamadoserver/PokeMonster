@@ -114,7 +114,7 @@ function ActionIsca.onUse(player, item, fromPosition, target, toPosition)
     return true
 end
 
-for isca in pairs(iscas) do
+for isca, _ in pairs(iscas) do
     ActionIsca:id(isca)
 end
 

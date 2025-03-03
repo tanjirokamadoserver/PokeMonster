@@ -423,4 +423,4 @@ for id in pairs(heldTable) do
     action_held:id(id)
 end
 
-action_held:register()
+--action_held:register()

@@ -34,5 +34,7 @@ function action.onUse(player, item, fromPosition, target, toPosition, isHotkey)
     return true
 end
 
-action:id(23149, 23151, 23152)
+for itemId, _ in pairs(charms) do
+    action:id(itemId)
+end
 action:register()

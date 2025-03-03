@@ -1581,7 +1581,7 @@ function craftActions.onUse(player, item, fromPosition, target, toPosition, isHo
 	return true
 end
 
-for id in pairs(craftIds) do
+for id, _ in pairs(craftIds) do
 	craftActions:id(id)
 end
 

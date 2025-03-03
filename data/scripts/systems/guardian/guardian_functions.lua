@@ -63,7 +63,7 @@ function action.onUse(player, item, fromPosition, target, toPosition)
     return true
 end
 
-for id in pairs(guardians_list) do
+for id, _ in pairs(guardians_list) do
     action:id(id)
 end
 

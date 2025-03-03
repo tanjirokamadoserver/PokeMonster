@@ -91,7 +91,7 @@ function action.onUse(player, item, fromPosition, target, toPosition, isHotkey)
 end
 
 local stones = {11450, 11445, 11446}
-for _, id in pairs(stones ) do
+for _, id in pairs(stones) do
 	action:id(id)
 end
 action:allowFarUse(true)

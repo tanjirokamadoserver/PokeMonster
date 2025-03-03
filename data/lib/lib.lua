@@ -6,8 +6,6 @@ dofile('data/lib/core/core.lua')
 dofile('data/lib/compat/compat.lua')
 
 -- custom systems
-dofile('data/lib/systems/donationgoals.lua')
-dofile('data/lib/systems/apipix.lua')
 dofile('data/lib/systems/shop.lua')
 
 -- icaro's systems
@@ -20,7 +18,6 @@ dofile('data/lib/systems/highscores.lua')
 dofile('data/lib/systems/dailyTournament.lua')
 dofile('data/lib/systems/bankLib.lua')
 dofile('data/lib/systems/partyMinimap.lua')
-dofile('data/lib/systems/bossesCeu.lua')
 dofile('data/lib/systems/vip_plus.lua')
 
 dofile('data/lib/zones/events.lua')
