@@ -2,7 +2,6 @@ build/
 backups/
 data/logs/
 logs/
-data/world
 src/tfs
 tfs
 config.lua
