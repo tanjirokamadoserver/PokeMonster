@@ -22,7 +22,6 @@ MAX_PLAYERS_PER_IP = 1
 playersLiberados = {"Icaro", "Baia", "Gabe"}
 
 function Player:loginHandler()
-    self:iconsHandler()
     self:titleHandler()
 	self:sendShopData()
     self:resetStorages()
