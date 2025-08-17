@@ -787,6 +787,12 @@ void Game::playerMoveCreature(Player* player, Creature* movingCreature, const Po
 		return;
 	}
 
+	if (Player* movingPlayer = movingCreature->getPlayer()) {
+		if (movingPlayer->isSpectator()) {
+			return;
+		}
+	}
+
 	if ((!movingCreature->isPushable() && !player->hasFlag(PlayerFlag_CanPushAllCreatures)) ||
 		(movingCreature->isInGhostMode() && !player->isAccessPlayer())) {
 		player->sendCancelMessage(RETURNVALUE_NOTMOVEABLE);
