@@ -1965,6 +1965,10 @@ void Game::playerMove(uint32_t playerId, Direction direction)
 		return;
 	}
 
+	if (player->isSpectator()) {
+		return false;
+	}
+
 	player->resetIdleTime();
 	player->setNextWalkActionTask(nullptr);
 
