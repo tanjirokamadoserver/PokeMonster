@@ -1972,7 +1972,7 @@ void Game::playerMove(uint32_t playerId, Direction direction)
 	}
 
 	if (player->isSpectator()) {
-		return false;
+		return;
 	}
 
 	player->resetIdleTime();
